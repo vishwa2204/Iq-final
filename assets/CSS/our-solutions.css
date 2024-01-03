@@ -1,0 +1,398 @@
+.our-solutions-main {
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.os-main-title h2 span {
+    color: var(--color);
+    font-weight: 900;
+}
+
+
+.os-main-title h5 {
+    color: var(--white);
+}
+
+.our-solutions-section {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+    position: relative;
+}
+
+.our-solutions-section img{
+    width: 100%;
+}
+
+.our-solutions-section .our-hire-flutter{
+    margin-top: 3%;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-solutions-section .our-hire-flutter img{
+    width: 47%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.our-solutions-section ul li{
+    color: var(--white);
+    list-style-type: square;
+}
+
+.our-solutions-section ul li::marker{
+    color: var(--color);
+}
+
+.our-solutions-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+.our-solutions-content {
+    width: 60%;
+    height: auto;
+}
+
+
+.our-solutions-content p {
+    font-weight: 100 !important;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.our-solutions-content p a {
+    text-decoration: none;
+    color: var(--color);
+}
+
+.our-solution-form {
+    width: 37%;
+    height: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.lead-management-container{
+    width: 100%;
+    height: auto;
+    margin-bottom: 4%;
+    display: flex !important;
+    flex-direction: column;
+
+}
+
+.lead-management-container img{
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+
+.lead-management-details {
+    width: 70%;
+    height: auto;
+    margin-bottom: 2%;
+    background-color: var(--white);
+    position: relative;
+    padding:2% 5%;
+    border-radius: 8px 0 0 8px;
+}
+
+.lead-management-details::after {
+    content: '';
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    background-color: var(--color);
+    top: 50%;
+    right: 0;
+    opacity: 0.8;
+    border-radius: 4px;
+    transform: translate(50%,-50%) rotate(45deg);
+    filter: drop-shadow(0 0 5px var(--color));
+}
+
+@media screen and (max-width:500px) {
+    .lead-management-details {
+        width: 90%;
+        height: auto;
+        margin-bottom: 2%;
+        background-color: var(--white);
+        position: relative;
+        padding:2% 5%;
+        border-radius: 8px 0 0 8px;
+    }
+}
+  
+/* /////////////////////////////////// */
+
+
+.our-solution-form h2 {
+    margin-bottom: 3%;
+}
+
+.our-solution-form h2 span {
+    color: var(--color);
+}
+
+.our-solution-heading {
+    width: 100%;
+    height: auto;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color);
+    margin-bottom: 5%;
+    color: var(--white);
+    border-left: 5px solid var(--white);
+    border-radius: 5px;
+}
+
+.our-solution-heading h5 {
+    margin-bottom: 0;
+}
+
+.our-solution-form form {
+    width: 100%;
+}
+
+.our-solution-form form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.our-solution-form form .consultant-boxs {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.our-solution-form form .consultant-boxs .consultant-mini {
+    width: 49%;
+    height: auto;
+    position: relative;
+}
+
+.our-solution-form form .consultant-boxs .consultant-mini input {
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    color: var(--white);
+    padding: 0 15px;
+    background: transparent;
+    border: 1.2px solid var(--white);
+    outline: none;
+    border-radius: 10px;
+}
+
+
+.our-solution-form form .consultant-boxs .consultant-mini label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 15px;
+    pointer-events: none;
+    padding: 0 5px;
+    color: var(--white);
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+form .consultant-boxs .consultant-mini input:focus~label,
+form .consultant-boxs .consultant-mini input:valid~label {
+    top: 0 !important;
+    left: 5%;
+    border-radius: 2%;
+    background-color: var(--black);
+    font-size: 12px;
+    color: var(--color);
+
+}
+
+form .consultant-boxs .consultant-mini input:focus {
+    border-color: var(--color);
+    filter: drop-shadow(0 0 3px var(--color));
+}
+
+.our-solution-form form .consultant-min {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+    position: relative;
+}
+
+.our-solution-form form .consultant-min input {
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    color: var(--white);
+    padding: 0 15px;
+    background: transparent;
+    border: 1.2px solid var(--white);
+    outline: none;
+    border-radius: 10px;
+}
+
+
+.our-solution-form form .consultant-min select {
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    color: var(--black);
+    padding: 0 15px;
+    background: transparent;
+    border: 1.2px solid var(--white);
+    outline: none;
+    background-color: var(--black);
+    border-radius: 10px;
+}
+
+.our-solution-form form .consultant-min select:focus {
+    color: var(--white);
+    filter: drop-shadow(0 0 3px var(--color));
+}
+
+.our-solution-form form .consultant-min select:valid {
+    color: var(--white);
+}
+
+.our-solution-form form .consultant-min select:valid option {
+    filter: drop-shadow(0 0 3px var(--color));
+}
+
+.our-solution-form form .consultant-min label {
+    position: absolute;
+    top: 50% !important;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 15px;
+    font-weight: 300;
+    pointer-events: none;
+    padding: 0 5px;
+    transition: 0.5s;
+    color: var(--white);
+}
+
+form .consultant-min input:focus~label {
+    top: 0 !important;
+    background-color: var(--black);
+    font-size: 12px;
+    left: 5%;
+    color: var(--color);
+}
+
+
+form .consultant-min input:valid~label {
+    top: 0 !important;
+    background-color: var(--black);
+    font-size: 12px;
+    color: var(--color);
+}
+
+.our-solution-form form input:valid {
+    filter: drop-shadow(0 0 3px var(--color));
+
+}
+
+.our-solution-form form textarea:valid {
+    filter: drop-shadow(0 0 3px var(--color));
+
+}
+
+.our-solution-form form .consultant-min input:focus {
+    border-color: var(--color);
+    filter: drop-shadow(0 0 3px var(--color));
+}
+
+
+.our-solution-form form .consultant-min textarea {
+    width: 100%;
+    font-size: 15px;
+    color: var(--white);
+    padding: 20px 15px;
+    background: transparent;
+    border: 1.2px solid var(--white);
+    outline: none;
+    border-radius: 10px;
+}
+
+.our-solution-form form .consultant-min textarea:focus {
+    border-color: var(--color);
+    filter: drop-shadow(0 0 3px var(--color));
+}
+
+form .consultant-min textarea:focus~label {
+    top: 0 !important;
+    left: 5%;
+    background-color: var(--black);
+    font-size: 12px;
+    color: var(--color);
+}
+
+
+form .consultant-min textarea:valid~label {
+    top: 0 !important;
+    background-color: var(--black);
+    font-size: 12px;
+    color: var(--color);
+}
+
+
+.our-solution-form form .btn {
+    width: 50%;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width:768px) {
+    .our-solutions-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .our-solutions-content {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .our-solutions-content p {
+        font-weight: 100 !important;
+        font-size: 15px;
+    }
+
+    .our-solution-form {
+        width: 100%;
+        height: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .our-solution-form form .btn {
+        width: 100%;
+        font-weight: 400;
+    }
+}

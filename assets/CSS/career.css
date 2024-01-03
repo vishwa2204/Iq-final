@@ -1,0 +1,607 @@
+:root {
+    --color: #ed1943;
+    --black: #0c0c0c;
+    --gray: gray;
+    --light-gray: rgb(227, 227, 227);
+    --light: rgb(223, 255, 255);
+    --white: #ffffff;
+    --blue: rgb(0, 81, 255);
+    --sky: rgb(74, 204, 255);
+    --green: green;
+}
+
+
+
+/* ////////////////////////////// Milestone section /////////////// */
+
+.milestones-section1 {
+    width: 100%;
+    height: auto;
+    padding: 3%;
+    margin-bottom: 5%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background: var(--l2);
+}
+
+.milestones-overlay1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 0.8;
+
+}
+
+.minlestone-container1 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.milestone-title {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+
+.milestone-title h2 {
+    color: var(--color);
+    font-weight: 700;
+    border-bottom: 1px solid var(--color);
+}
+
+/* ////////////////////////////// Milestone section /////////////// */
+
+
+.milestone-details1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+.milestone-content1:hover {
+    filter: drop-shadow(0 0 10px var(--color));
+}
+
+
+.milestone-content1 {
+    width: 22%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: var(--white); */
+    /* From https://css.glass */
+    flex-direction: column;
+    background-color: var(--white);
+    padding: 2%;
+    margin-bottom: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.milestone-content i,
+.milestone-content span {
+
+    animation: skew2 4s infinite ease-in-out;
+
+}
+
+
+
+.milestone-content1 i {
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--light-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color);
+    border-radius: 50% !important;
+}
+
+.milestone-content1 .counts {
+    font-size: 30px;
+    color: var(--color);
+    font-weight: 600;
+}
+
+
+.milestone-content1 .counts-name {
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+/* Achieve Section  */
+
+.achieve-section {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+
+}
+
+.achieve-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.achieve-container .achieve-title {
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+
+.achieve-container .achieve-content-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.achieve-container .achieve-content-container .achieve-boxs {
+    width: 32%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.achieve-container .achieve-content-container .achieve-boxs .achieve-box-content {
+    width: 100%;
+    position: relative;
+    transition: 0.5s;
+}
+
+.achieve-container .achieve-content-container .achieve-boxs .achieve-box-content:hover {
+    filter: drop-shadow(0 0 8px var(--color));
+}
+
+.achieve-container .achieve-content-container .achieve-boxs .achieve-box-content:hover .achieve-overlay {
+    opacity: 0.8;
+}
+
+.achieve-container .achieve-content-container .achieve-boxs .achieve-box-content:hover h5 {
+    filter: drop-shadow(0 0 8px var(--color));
+    bottom: 50%;
+}
+
+.achieve-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.4;
+}
+
+.achieve-container .achieve-content-container .achieve-boxs .achieve-box-content h5 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+    color: var(--white);
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.achieve-container .achieve-content-container .achieve-boxs .abc-1 {
+    height: 60%;
+    animation-delay: 6s !important;
+}
+
+.achieve-container .achieve-content-container .achieve-boxs .abc-2 {
+    height: 37%;
+    animation-delay: 3s !important;
+
+}
+
+.achieve-container .achieve-content-container .achieve-boxs .abc-3 {
+    height: 37%;
+    animation-delay: 1s !important;
+
+}
+
+.achieve-container .achieve-content-container .achieve-boxs .abc-4 {
+    height: 60%;
+    animation-delay: 5s !important;
+
+}
+
+.achieve-container .achieve-content-container .achieve-boxs .abc-5 {
+    height: 60%;
+    animation-delay: 4s !important;
+
+}
+
+.achieve-container .achieve-content-container .achieve-boxs .abc-6 {
+    height: 37%;
+    animation-delay: 2s !important;
+
+}
+
+.achieve-container .achieve-content-container .achieve-boxs .achieve-box-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Apply Now  */
+
+.achieve-apply-section {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+    position: relative;
+}
+
+.achieve-apply-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.achieve-apply-boxs {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    align-items: center;
+}
+
+.achieve-apply-boxs .achieve-apply-button {
+    width: 17%;
+}
+
+.achieve-apply-boxs .achieve-apply-button button {
+    width: 100%;
+}
+
+.achieve-apply-boxs .achieve-apply-content {
+    width: 80%;
+    height: auto;
+    padding: 2%;
+    background-color: var(--light);
+}
+
+.achieve-apply-boxs .achieve-apply-content p {
+    color: var(--gray);
+}
+
+
+/* Popup Form Start  */
+
+
+.popup-form {
+    width: 50%;
+    height: 450px;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    z-index: 1000;
+    transform: translate(-50%, 0);
+    background-color: var(--white);
+    padding: 2%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    scale: 0;
+    transition: 1s;
+    border-radius: 20px;
+}
+
+
+
+.popup-form .popup-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    position: relative;
+}
+
+.popup-container .close-btn {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    z-index: 5;
+    background-color: transparent;
+    border: none;
+    color: var(--color);
+}
+
+.popup-container .close-btn i {
+    font-size: 20px;
+}
+
+.popup-form-container {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.popup-form-container h2 {
+    color: var(--black);
+}
+
+.popup-form-container h2 span {
+    color: var(--color);
+}
+
+.popup-form-container p {
+    color: var(--black);
+}
+
+.popup-form-container form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.popup-form-container form input {
+    margin-bottom: 3%;
+    width: 100%;
+    padding: 1%;
+}
+
+.popup-form-container form select {
+    margin-bottom: 3%;
+    width: 100%;
+    padding: 1%;
+}
+
+.popup-form-container form button {
+    width: 40%;
+    padding: 2%;
+    background-color: transparent;
+    border: none;
+    background-color: var(--color);
+    border-radius: 10px;
+}
+
+.blur {
+    filter: brightness(150%) blur(5px) !important;
+
+}
+
+.rot {
+    transform: translate(-50%, 0) rotateZ(360deg);
+}
+
+/* Popup Form End  */
+
+
+
+@media screen and (max-width: 750px) {
+
+    /* Popup Form Start  */
+
+
+    .popup-form {
+        width: 100% !important;
+        height: 450px;
+        position: fixed;
+        top: 10%;
+        left: 50%;
+        z-index: 1000;
+        transform: translate(-50%, 0);
+        background-color: var(--white);
+        padding: 2%;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        scale: 0;
+        transition: 1s;
+        border-radius: 20px;
+    }
+
+
+
+    .achieve-apply-boxs {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .achieve-apply-boxs .achieve-apply-button {
+        width: 80%;
+    }
+
+
+    .achieve-apply-boxs .achieve-apply-content {
+        width: 90%;
+        height: auto;
+        margin-bottom: 5%;
+        padding: 2%;
+        background-color: var(--light);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:320px) {
+
+    .milestone-content1 {
+        width: 100%;
+        height: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* background: var(--white); */
+        /* From https://css.glass */
+        flex-direction: column;
+        background-color: var(--white);
+        padding: 2%;
+        margin-bottom: 20px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .achieve-container .achieve-content-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .achieve-container .achieve-content-container .achieve-boxs {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:425px) {
+    .milestone-content1 {
+        width: 100%;
+        height: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* background: var(--white); */
+        /* From https://css.glass */
+        flex-direction: column;
+        background-color: var(--white);
+        padding: 2%;
+        margin-bottom: 20px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .achieve-container .achieve-content-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .achieve-container .achieve-content-container .achieve-boxs {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:600px) {
+    .milestone-content1 {
+        width: 47%;
+        height: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* background: var(--white); */
+        /* From https://css.glass */
+        flex-direction: column;
+        background-color: var(--white);
+        padding: 2%;
+        margin-bottom: 20px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .achieve-container .achieve-content-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .achieve-container .achieve-content-container .achieve-boxs {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:768px) {
+    .milestone-content1 {
+        width: 22%;
+        height: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* background: var(--white); */
+        /* From https://css.glass */
+        flex-direction: column;
+        background-color: var(--white);
+        padding: 2%;
+        margin-bottom: 20px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .achieve-container .achieve-content-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .achieve-container .achieve-content-container .achieve-boxs {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:900px) {}
+
+@media screen and (min-width:901px) and (max-width:992px) {}
+
+@media screen and (min-width:993px) and (max-width:1024px) {}
+
+@media screen and (min-width:1025px) and (max-width:1140px) {}
