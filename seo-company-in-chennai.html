@@ -1404,7 +1404,59 @@
         })(window, document, "static.olark.com/jsclient/loader.js");/* custom configuration goes here (www.olark.com/documentation) */olark.identify('9134-624-10-9995');</script>
     <!-- end olark code -->
 
+ <!-- Mobile Responsive Social Icons Start -->
 
+ <section class="mobile-social-icons">
+    <div class="mobile-social-container">
+        <div id="mobileToggler" class="mobile-social-toggler">
+            <span>
+                <i class="fa-solid fa-address-book fa-shake"></i>
+            </span>
+        </div>
+        <div class="mobile-toggler-menus">
+            <div class="mobile-menus-container">
+                <span style="--i:1;--bac:rgb(0, 81, 255);">
+                    <a href="tel:+917538857567" target="_blank" class="social-links">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                </span>
+                <span style="--i:2;--bac:green;">
+                    <a href="https://wa.me/+917538857567" target="_blank" class="social-links">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </span>
+                <span style="--i:3;--bac:rgb(74, 204, 255);">
+                    <a href="#" target="_blank" class="social-links">
+                        <i class="fa-brands fa-skype"></i>
+                    </a>
+                </span>
+                <span style="--i:4;--bac:rgb(0, 81, 255);">
+                    <a href="mailto:info@iqtechway.com" target="_blank" class="social-links">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </span>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        // Mobile Menus Teggler 
+
+        let mobileToggler = document.querySelector('.mobile-social-toggler');
+        let mobileTogglerMenus = document.querySelector('.mobile-toggler-menus');
+
+        mobileToggler.addEventListener('click', () => {
+            mobileTogglerMenus.classList.toggle('mobResponsive');
+            mobileToggler.classList.toggle('ro45');
+        });
+
+
+
+    </script>
+</section>
+
+<!-- Mobile Responsive Social Icons End -->
 
 
 
@@ -1431,6 +1483,32 @@
 
     <script src="assets/JS/owl.carousel.min.js"></script>
 
+    <script>
+        // Mobile Responsive icons 
+
+        $(document).ready(function () {
+            $(".fa-address-book").click(function () {
+
+                if ($(this).hasClass('fa-address-book')) {
+                    // Do something if class exists
+                    $(this).removeClass("fa-address-book");
+                    $(this).addClass("fa-xmark");
+                } else {
+                    // Do something if class does not exist
+                    $(this).removeClass("fa-xmark");
+                    $(this).addClass("fa-address-book");
+                }
+
+                //////////////////////////////////
+
+                // $(".fa-address-book").addClass("fa-xmark");
+                // $(".fa-xmark").removeClass("fa-address-book")
+            })
+
+
+        })
+
+    </script>
 
 
     <script>
