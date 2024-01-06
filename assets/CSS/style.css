@@ -1895,7 +1895,7 @@ hr {
     margin: 0rem !important;
 }
 
-.tab-content .active {
+.tab-content .active .tab-flex  {
     width: 100%;
     display: flex !important;
     justify-content: space-around;
