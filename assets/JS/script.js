@@ -16,7 +16,6 @@ closeNav.addEventListener('click', () => {
 });
 
 // cOUNTER 
-
 // window.addEventListener('scroll', reveal);
 
 var reveals = document.querySelector('.reveal');
