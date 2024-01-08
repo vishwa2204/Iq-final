@@ -133,6 +133,12 @@ header {
     margin-bottom: 5%;
 }
 
+.header-join{
+    background-image: url(../Images/banner/join.jpg) !important;
+    background-position: center right;
+    background-size: cover;
+}
+
 .header-overlay {
     width: 100%;
     height: 100%;
