@@ -10,7 +10,7 @@
     box-sizing: border-box;
     font-family: myFont;
     scroll-behavior: smooth !important;
-    transition: 0.5s all linear;
+    transition: 0.5s all linear ;
 }
 
 @font-face {
@@ -574,6 +574,18 @@ header {
 .accordion-collapse {
     overflow-y: scroll !important;
     height: 600px;
+}
+
+@media screen and (min-width:992px) {
+    .accordion-collapse {
+        overflow-y: scroll !important;
+        height: auto;
+        padding-left: 30px;
+    }
+
+    .accordion-collapse a{
+        text-decoration: none !important;
+    }
 }
 
 .mobile-links {

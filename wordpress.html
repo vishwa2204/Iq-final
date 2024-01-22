@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iqtechway</title>
+    <title>Wordpress Development | Wordpress CMS Framework</title>
+
+    <meta name="description"
+        content="Make use of the top WordPress development firm to expand your startup and build a competitive online application with eye-catching layouts and templates.">
 
     <!--////////////////////// Favicon /////////////////// -->
     <link rel="icon" href="assets/Images/logo/iq-fav.png">
@@ -196,7 +199,7 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                                                <a href="join-team.html" class="accordion-button collapsed">Career</a>
+                        <a href="join-team.html" class="accordion-button collapsed">Career</a>
 
 
                     </div>
@@ -223,13 +226,32 @@
                         <a href="#"><button class="load-btn2 pro-active" id="fans" onmouseover="function2()"><i
                                     class="fa-solid fa-server fa-xl"></i> <span>Services</span></button></a><br>
                         <div class="dropdown">
-                            <a class="btn load-btn3 btn-secondary dropdown-toggle" href="#" role="button"
-                                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"><i
-                                    class="fa-solid fa-smog fa-xl mx-1"></i>
+                            <button class="btn load-btn3 btn-secondary accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree" onmouseover="function3()">
+                                <i class="fa-solid fa-smog fa-xl mx-1"></i>
                                 Our Solutions
-                            </a>
+                            </button>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class=" load-calculate-boxs">
+                                    <h5>Digital Solutions</h5>
+                                    <ul>
+                                        <li><a href="devOps-solutions.html">DevOps Solutions</a></li>
+                                        <li><a href="cloud-solutions.html">Cloud Solutions</a></li>
+                                        <li><a href="software-solutions.html">Software Solutions for Startup</a></li>
+                                        <li><a href="product-prototype.html">Product Prototype Solutions</a></li>
+                                        <li><a href="enterprise-mobility.html">Enterprise Mobility Solutions</a></li>
+                                        <li><a href="on-demand-business.html">On-demand Business Solutions</a></li>
+                                    </ul>
+                                </div>
 
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            </div>
+                            <!-- <a class=" dropdown-toggle" href="#" role="button"
+                                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            </a> -->
+
+                            <!-- <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 
 
                                 <li><a class="dropdown-item" href="devOps-solutions.html">DevOps Solutions</a></li>
@@ -242,19 +264,45 @@
                                         Solutions</a></li>
                                 <li><a class="dropdown-item" href="on-demand-business.html">On-demand Business
                                         Solutions</a></li>
-                            </ul>
+                            </ul> -->
                         </div>
                         <a href="case-studies.html"><button class="load-btn4" id="fans" onmouseover="function4()"><i
                                     class="fa-solid fa-plug fa-xl"></i>
                                 Case Studies <span></span></button></a><br>
                         <div class="dropdown">
+
+
+                            <button class="btn load-btn5 btn-secondary accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo" onmouseover="function5()">
+                                <i class="fa-solid fa-smog fa-xl mx-1"></i> Hire
+                            </button>
+
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class=" load-calculate-boxs">
+                                    <h5>Hire Developers</h5>
+                                    <ul>
+                                        <li><a href="hire-flutter-developer.html">Hire Flutter Developer</a></li>
+                                        <li><a href="hire-laravel-developer.html">Hire Laravel Developer</a></li>
+                                        <li><a href="hire-logo-designers.html">Hire Logo Designers</a></li>
+                                        <li><a href="hire-magento-developer.html">Hire Magento Developer</a></li>
+                                        <li><a href="hire-php-developer.html">Hire PHP Developer</a></li>
+                                        <li><a href="hire-seo-expert.html">Hire SEO Experts</a></li>
+                                        <li><a href="hire-wordpress-developer.html">Hire WordPress Developer</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <!-- 
                             <a class="btn load-btn5 btn-secondary dropdown-toggle" href="#" role="button"
                                 id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"><i
                                     class="fa-solid fa-smog fa-xl mx-1"></i>
                                 Hire
                             </a>
 
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink"
+                                style="width: 100%; border : 2px solid var(--color);">
                                 <li><a class="dropdown-item" href="hire-flutter-developer.html">Hire Flutter
                                         Developer</a></li>
                                 <li><a class="dropdown-item" href="hire-laravel-developer.html">Hire Laravel
@@ -267,7 +315,7 @@
                                 <li><a class="dropdown-item" href="hire-seo-expert.html">Hire SEO Experts</a></li>
                                 <li><a class="dropdown-item" href="hire-wordpress-developer.html">Hire Wordpress
                                         Developer</a></li>
-                            </ul>
+                            </ul> -->
                         </div>
                         <a href="join-team.html"><button class="load-btn6" id="fans" onmouseover="function6()"><i
                                     class="fa-solid fa-person-walking-dashed-line-arrow-right fa-xl"></i>
@@ -282,8 +330,12 @@
 
                     </div>
                     <div class="load-calculate-content">
-                        <div class="load-box-container" id="load1">
+                        <div class="load-box-container"
+                            style="display: flex; justify-content: center; align-items: center;" id="load1">
 
+                            <img src="assets/Images/logo/iq.png"
+                                style="width: 300px; height: 300px; object-fit: contain; filter: drop-shadow(10px 5px 5px var(--black));"
+                                alt="Logo">
 
                         </div>
                         <div class="load-box-container" id="load2">
@@ -364,35 +416,49 @@
                             </div>
 
                         </div>
-                        <div class="load-box-container" id="load3">
+                        <div class="load-box-container"
+                            style="display: flex; justify-content: center; align-items: center;" id="load3">
+                            <img src="assets/Images/logo/iq.png"
+                                style="width: 300px; height: 300px; object-fit: contain; filter: drop-shadow(10px 5px 5px var(--black));"
+                                alt="Logo">
 
                         </div>
-                        <div class="load-box-container" id="load4">
+                        <div class="load-box-container"
+                            style="display: flex; justify-content: center; align-items: center;" id="load4">
+                            <img src="assets/Images/logo/iq.png"
+                                style="width: 300px; height: 300px; object-fit: contain; filter: drop-shadow(10px 5px 5px var(--black));"
+                                alt="Logo">
 
                         </div>
-                        <div class="load-box-container" id="load5">
-                            <div class=" load-calculate-boxs">
-                                <h5>Hire Developers</h5>
-                                <ul>
-                                    <li><a href="hire-flutter-developer.html">Hire Flutter Developer</a></li>
-                                    <li><a href="hire-laravel-developer.html">Hire Laravel Developer</a></li>
-                                    <li><a href="hire-logo-designers.html">Hire Logo Designers</a></li>
-                                    <li><a href="hire-magento-developer.html">Hire Magento Developer</a></li>
-                                    <li><a href="hire-php-developer.html">Hire PHP Developer</a></li>
-                                    <li><a href="hire-seo-expert.html">Hire SEO Experts</a></li>
-                                    <li><a href="hire-wordpress-developer.html">Hire WordPress Developer</a></li>
-                                </ul>
-                            </div>
+                        <div class="load-box-container"
+                            style="display: flex; justify-content: center; align-items: center;" id="load5">
+
+                            <img src="assets/Images/logo/iq.png"
+                                style="width: 300px; height: 300px; object-fit: contain; filter: drop-shadow(10px 5px 5px var(--black));"
+                                alt="Logo">
+
                         </div>
-                        <div class="load-box-container" id="load6">
+                        <div class="load-box-container"
+                            style="display: flex; justify-content: center; align-items: center;" id="load6">
+                            <img src="assets/Images/logo/iq.png"
+                                style="width: 300px; height: 300px; object-fit: contain; filter: drop-shadow(10px 5px 5px var(--black));"
+                                alt="Logo">
 
 
                         </div>
-                        <div class="load-box-container" id="load7">
+                        <div class="load-box-container"
+                            style="display: flex; justify-content: center; align-items: center;" id="load7">
+                            <img src="assets/Images/logo/iq.png"
+                                style="width: 300px; height: 300px; object-fit: contain; filter: drop-shadow(10px 5px 5px var(--black));"
+                                alt="Logo">
 
                         </div>
-                        <div class="load-box-container" id="load8">
+                        <div class="load-box-container"
+                            style="display: flex; justify-content: center; align-items: center;" id="load8">
 
+                            <img src="assets/Images/logo/iq.png"
+                                style="width: 300px; height: 300px; object-fit: contain; filter: drop-shadow(10px 5px 5px var(--black));"
+                                alt="Logo">
 
                         </div>
                     </div>
@@ -405,7 +471,7 @@
 
         <!-- Header Section Start -->
         <!-- Navbar Section Start -->
-       <nav class="navbar">
+        <nav class="navbar">
             <div class="navbar-container container">
                 <a href="index.html" class="nav-brand">
                     <img src="assets/Images/logo/iq-white.png" class="png-white" alt="LOGO">
@@ -444,10 +510,9 @@
 
         <div class="banner-section">
             <span class="since">Since 2019</span>
-            <h1>Wordpress <span> Developement</span></h1>
-            <p>High Quality Web & Mobile Application Design & Development Solution, that will help you to achieve new
-                heights in your business.
-            </p>
+            <h1>Word Press Development <span> Company</span></h1>
+            <p>Our goal is to fully satisfy our customers by providing them with a variety of innovative features and
+                concepts that are motivated by market-driven business performance.</p>
             <span class="del"><a href="index.html">Home </a> > Wordpress developement</span>
 
         </div>
@@ -462,11 +527,21 @@
 
     <!-- Header End  -->
 
-    <div class="research-title mb-5">
-        <h2>Wordpress <span>Development</span> </h2>
-        <p>At Iqtechway, we specialize in crafting tailored WordPress solutions that empower businesses to thrive in
-            the digital landscape. With a team of seasoned developers and designers, we harness the power of WordPress
-            to create stunning, functional, and user-centric websites that resonate with your brand identity.</p>
+    <div class="research-title mb-5 container">
+        <h2>Word Press Development to <span>Leverage your Brand Image </span> </h2>
+        <p>The best approach to enhance your company's reputation in the marketplace is to pursue web application
+            development. It seems that the ideal location to receive assistance is from a WordPress development company,
+            regardless of whether you are a start-up or an existing company trying to expand in the digital market.
+            WordPress development is a suitable choice, particularly if you're looking to create a blogging platform.
+            With PHP, WordPress has achieved a significant milestone. Making a competitive online application is the
+            best course of action.</p>
+
+        <p>Word Press offers imaginative layouts and themes that offer a responsive user interface. When it comes to
+            online programs that adjust to the screen size, WordPress is the best. Word Press's propensity is equal to
+            the market conditions that enable an online application to succeed. Wordpress offers a variety of theme
+            possibilities, and you can personalize the web application using plugins. 31% of the entire internet is
+            powered by WordPress. The main factor behind its growth in the digital market is how simple it is to install
+            and modify.</p>
     </div>
 
 
@@ -497,6 +572,89 @@
         </div>
 
     </section>
+
+    <section class="professional-section">
+        <div class="professional-container1 container">
+            <h2>Why Choose us as your <span> WordPress Development Company?</span></h2>
+            <p style="font-size: 13px; font-weight: 100;">Our whole attention remains on international technology and
+                accelerates WordPress development. The Word Press development company's team of gifted developers
+                produces innovative, market-focused outcomes. We are prepared to provide WordPress development services
+                with improved results. With fifteen years of combined experience, our design and development team works
+                around the clock to provide outstanding projects.</p>
+
+            <p style="font-size: 13px; font-weight: 100;">Also, we use themes, plugins, and tools to handle a broad
+                range of business needs. We have created a wide range of online applications for companies and
+                individuals, catering to industries such as food, healthcare, education, and more. As a well-known
+                WordPress development business, we have 100% pleased clients across the globe in a variety of
+                industries. When you work with us, you'll get to enjoy all of WordPress' best characteristics, including
+                scalability, excellent security, low code and high functionality, and SEO friendliness.</p>
+
+            <h2>Services we Introduce as Eminent <span>Word Press Development Company</span></h2>
+
+            <p style="font-size: 13px; font-weight: 100;">WordPress offers a wide range of functions and amenities. We
+                are the experts in all areas of WordPress services. Learn more with us below:</p>
+
+            <h3 class="mb-2" style="font-size: 16px; color: var(--color);">Installation & <span
+                    style="color: white; border-bottom: 1px solid var(--color);">Configuration</span></h3>
+
+            <p style="font-size: 13px; font-weight: 100;">Our installation and configuration services are simple,
+                stress-free, and lead to a rich industrial experience. Our development team makes use of all of its
+                knowledge and abilities to streamline the procedure.</p>
+
+            <h3 class="mb-2" style="font-size: 16px; color: var(--color);">Responsive <span
+                    style="color: white; border-bottom: 1px solid var(--color);">Design</span></h3>
+
+            <p style="font-size: 13px; font-weight: 100;">As the most reputable WordPress development business, we offer
+                an attractive design and simple web app navigation. We usually make sure it looks and functions the best
+                it can.</p>
+
+            <h3 class="mb-2" style="font-size: 16px; color: var(--color);">Migration</h3>
+
+            <p style="font-size: 13px; font-weight: 100;">WordPress migration is a complex task, but we can simplify
+                this by the considerable skills and expertise. You can swiftly take your web application to or fro word
+                press over a new platform on accelerated mode.</p>
+
+            <h3 class="mb-2" style="font-size: 16px; color: var(--color);">Plugin Development</h3>
+
+            <p style="font-size: 13px; font-weight: 100;"> Word Press Development
+                Company is skilled in meeting business needs by combining the newest technological stack with
+                custom-made plugins. Web applications can have their functionality expanded in accordance with
+                branding.</p>
+
+            <h3 class="mb-2" style="font-size: 16px; color: var(--color);">eCommerce Solutions</h3>
+
+            <p style="font-size: 13px; font-weight: 100;">
+                We modify the most optimally designed technologies and APIs to
+                create web applications for eCommerce. We incorporate the feature-rich user interface to create a highly
+                functional web application for the market.</p>
+
+            <h3 class="mb-2" style="font-size: 16px; color: var(--color);">CMS Development</h3>
+
+            <p style="font-size: 13px; font-weight: 100;">Our specialty is developing a faster, more user-friendly
+                program to update your website continuously. Word processing content management systems (CMS) can make
+                use of your expertise on an intuitive web application. </p>
+
+            <h3 class="mb-2" style="font-size: 16px; color: var(--color);">Payment Solutions</h3>
+
+            <p style="font-size: 13px; font-weight: 100;">Our specialist adds several payment gateways to the website
+                while maintaining strict security. We provide a flawless global transactional experience by means of a
+                web application that is equipped with strict security protocols.</p>
+
+            <h3 class="mb-2" style="font-size: 16px; color: var(--color);">Support</h3>
+
+            <p style="font-size: 13px; font-weight: 100;">Our team of highly skilled and cohesive developers operates
+                effectively around the clock. Additionally, you are informed throughout the process thanks to our prior
+                experience with technical assistance and maintenance.</p>
+
+            <h3 class="mb-2" style="font-size: 16px; color: var(--color);">Bug Fixation</h3>
+
+            <p style="font-size: 13px; font-weight: 100;">To address any remaining issues, we subject the project to a
+                thorough quality analysis and testing procedure. Next, we work until the app is fully functional and
+                ready for deployment, ensuring peak performance.</p>
+        </div>
+    </section>
+
+    <!-- professional-section End -->
 
     <section class="about-page-section">
         <div class="about-page-container container">
@@ -664,6 +822,56 @@
 
     <!-- rESERCH SECTION eND -->
 
+   
+    <!-- Technologies Start  -->
+
+    <div class="research-title container mb-5">
+        <h2>Benefits of Hiring us as your  <span>Word Press Development Company </span> </h2>
+        <p>We believe we are the greatest company to work with for WordPress development for several reasons, but even so, you will learn more in a more effective manner.</p>
+    </div>
+
+    <section class="hire-technologies-section">
+        <div class="technologies-overlay1"></div>
+        <div class="technologies-overlay2"></div>
+        <div class="hire-technologies-container container">
+            <div class="hire-technologies-boxs">
+                <h3>Guarantee</h3>
+                <p style="font-size: 10px; font-weight: 100;">For our esteemed clientele, we promise the greatest design and development in addition to prompt delivery.</p>
+            </div>
+            <div class="hire-technologies-boxs">
+                <h3>Confidentiality</h3>
+                <p style="font-size: 10px; font-weight: 100;">As a commitment to NDAs, we completely secure the design and development process as well as the layout.</p>
+            </div>
+            <div class="hire-technologies-boxs">
+                <h3>Direct Resource</h3>
+                <p style="font-size: 10px; font-weight: 100;">We opt for a natural resource that is up to the mark by the quality and introduce a functionality beyond expectations.</p>
+            </div>
+            <div class="hire-technologies-boxs">
+                <h3>Agile Development</h3>
+                <p style="font-size: 10px; font-weight: 100;">The team at AppSquadz takes an entirely professional approach towards seamless user experience at all.</p>
+            </div>
+            <div class="hire-technologies-boxs">
+                <h3>Commitment </h3>
+                <p style="font-size: 10px; font-weight: 100;">Our whole focus is on providing our clients with exceptional service and ensuring their pleasure.</p>
+            </div>
+            <div class="hire-technologies-boxs">
+                <h3>Time Zone</h3>
+                <p style="font-size: 10px; font-weight: 100;">We keep control over the timetable and process under development to ensure the on-time project delivery.</p>
+            </div>
+            <div class="hire-technologies-boxs">
+                <h3>Retention Rate</h3>
+                <p style="font-size: 10px; font-weight: 100;">There is a 100% client satisfaction rate. We are using business performance to deliver globally.</p>
+            </div>
+            <div class="hire-technologies-boxs">
+                <h3>Value-Based</h3>
+                <p style="font-size: 10px; font-weight: 100;">To guarantee a better user interface, we maintain strict control over the application's API integration and quality.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies End  -->
+
+
     <!-- Our Approach Section Start -->
 
     <section class="our-approuch-section">
@@ -822,636 +1030,709 @@
     <!-- Our Approach Section End -->
 
 
-    <section class="servc-c padng-sec">
-        <div class="container">
-            <div class="sub-hd text-center">
-                <h5>Our <span>Blogs</span></h5>
-                <h2>Latest <span>Blogs</span> </h2>
+    <div class="faq-details container">
+        <h2>Frequently Asked <span>Questions</span> </h2>
+        <div class="question-container">
+            <div class="question">
+                <button id="button">
+                    <span>1. Why is WordPress the best CMS for web development?</span>
+                    <span><i class="fa-solid fa-plus fa-lg"></i></span>
+                </button>
+                <p>WordPress offers the most extensive and varied feature set. Wordpress is the most sought-after web
+                    application platform in the development business for this reason.</p>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="servc-sngl-c-sdo">
-                        <div class="servc-shdo-c">
-                        </div>
-                        <a href="blog.html" class="servc-sngl-c mpb-app-c">
-                            <img src="assets/Images/case-studies/2.png" class="bb-news" alt="Blog">
-                            <div class="servc-sngl-txt-c">
-                                <div class="sub-hd-serv-c text-center">
-                                    <h6>November 25,2023</h6>
-
-                                    <h3>Adapting to the New Bounce Rate Metrics in GA4: What You Need to Know</h3>
-                                </div>
-                                <p>In the ever-evolving landscape of digital marketing and website analytics, staying
-                                    ahead of the curve is not just …
-                                </p>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="servc-sngl-c-sdo">
-                        <div class="servc-shdo-c">
-                        </div>
-                        <a href="blog.html" class="servc-sngl-c wb-app-c">
-                            <img src="assets/Images/case-studies/3.png" class="bb-news" alt="Blog">
-
-                            <div class="servc-sngl-txt-c">
-                                <div class="sub-hd-serv-c text-center">
-                                    <h6>November 15,2023</h6>
-
-                                    <h3>The Impact of Duplicate Content on Your Website’s SEO</h3>
-                                </div>
-                                <p>In the ever-evolving landscape of digital marketing, achieving a top-notch SEO
-                                    strategy is paramount for online success. Businesses …</p>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="servc-sngl-c-sdo">
-                        <div class="servc-shdo-c">
-                        </div>
-                        <a href="blog.html" class="servc-sngl-c sft-dev-c">
-                            <img src="assets/Images/blog/1.jpg" class="bb-news" alt="Blog">
-
-                            <div class="servc-sngl-txt-c">
-                                <div class="sub-hd-serv-c text-center">
-                                    <h6>November 30,2023</h6>
-
-                                    <h3>The Power of Festive Posts: 5 Reasons Your Brand Needs Them</h3>
-                                </div>
-                                <p>The Gateway to Building Brand Loyalty As the holiday season is fast approaching,
-                                    businesses are looking for new …</p>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
+            <div class="question">
+                <button id="button">
+                    <span> 2. How much time will you take to complete my WordPress website? </span>
+                    <span><i class="fa-solid fa-plus fa-lg"></i></span>
+                </button>
+                <p>Although we work hard to create Your WordPress web application as quickly as we can, the expected
+                    period of development still varies depending on the kind of application you want.</p>
+            </div>
+            <div class="question">
+                <button id="button">
+                    <span> 3. How much does it cost to build a WordPress website? </span>
+                    <span><i class="fa-solid fa-plus fa-lg"></i></span>
+                </button>
+                <p> Numerous components of the Word Press web application are modeled after the interface you are
+                    searching for. Because of this, the price of developing a Wordpress web application varies according
+                    to the features and user interface you desire.</p>
+            </div>
+            <div class="question">
+                <button id="button">
+                    <span>4. Can I see the WordPress design before it’s built?</span>
+                    <span><i class="fa-solid fa-plus fa-lg"></i></span>
+                </button>
+                <p>You may view all of the successfully completed projects created using WordPress and other frameworks
+                    by visiting our website's portfolio and case study section.</p>
+            </div>
+            <div class="question">
+                <button id="button">
+                    <span> 5. Is WordPress good for big websites? </span>
+                    <span><i class="fa-solid fa-plus fa-lg"></i></span>
+                </button>
+                <p>Wordpress is ideal for complex online applications. It can also be used to swiftly incorporate the
+                    newest features.</p>
             </div>
 
-        </div>
-    </section>
-
-    <!-- Android App Development Services End -->
-
-
-    <!--/////////////////////////// footer section start/////////////////////// -->
-     <footer>
-        <div class="footer-boxes">
-            <div class="footer-first">
-                <h5>Get in Touch</h5>
-                <ul>
-                    <li><a href="tel:+919884565567">Contact No : +919884565567 </a></li>
-                    <li><a href="tel:+917538857567">Another Contact No : +917538857567</a></li>
-                    <li><a href="mailto:info@iqtechway.com">Email: info@iqtechway.com</a></li>
-
-                </ul>
-            </div>
-            <div class="footer-first">
-                <h5>Office Branch</h5>
-                <ul class="branch">
-                    <li>
-                        <h6>Head Branch</h6>
-                        <a href="https://maps.app.goo.gl/g6q1UV33t5EqoUjx5" target="_blank">
-                            204 A, A.K.G.COMPLEX, New Siddhapudur, Tamil Nadu 641044
-                        </a>
-                    </li>
-                    <li>
-                        <h6>BRANCH OFFICE (Madurai) </h6>
-                        <a href="https://maps.app.goo.gl/NXefb1rnyqFT96kE8" target="_blank">
-                            1st floor, Bank of Baroda upstairs, 5, Sakthi Velammal St, Sakthi Velammal Nagar, S S
-                            Colony, Madurai, Tamil Nadu 625010
-                        </a>
-                    </li>
-                    <li>
-                        <h6>BRANCH OFFICE (Coimbatore)</h6>
-                        <a href="https://maps.app.goo.gl/15FyYif4Y6E4Kfxe7" target="_blank">
-                            Ani complex, 185/18, Kamarajar St, Tholampalayam Rd, coimbatore, Tamil Nadu 641104
-                        </a>
-                    </li>
-
-                </ul>
-            </div>
-
-            <div class="footer-first">
-                <h5>Follow Us</h5>
-                <div class="footer-social-link">
-                    <a href="https://www.facebook.com/IQTechWay" target="_blank"><i
-                            class="fa-brands fa-facebook fa-xl"></i></a>
-                    <a href="https://www.instagram.com/iqtechway/?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA%3D%3D"
-                        target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>
-                    <a href="https://wa.me/+917538857567" target="_blank"><i
-                            class="fa-brands fa-whatsapp fa-xl"></i></a>
-                </div>
-
-            </div>
-        </div>
-        <div class="footer-boxes">
-            <div class="footer-first">
-                <h5>WEB DEVELOPMENT</h5>
-
-                <ul>
-                    <li><a href="frontend.html">Frontend</a></li>
-                    <li><a href="php.html"> PHP Backend </a></li>
-                    <li><a href="java.html"> Java </a></li>
-                    <li><a href="nodejs.html"> Node.js </a></li>
-                    <li><a href="dotNet.html"> .Net </a></li>
-                    <li><a href="typeScript.html"> Typescript </a></li>
-                </ul>
-            </div>
-            <div class="footer-first">
-                <h5>CMS Development</h5>
-                <ul>
-                    <li><a href="wordpress.html">Wordpress</a></li>
-                    <li><a href="magento.html">Magento</a></li>
-                    <li><a href="shopify.html">Shopify</a></li>
-                    <li><a href="joomla.html">Joomla</a></li>
-                    <li><a href="drupal.html">Drupal</a></li>
-                    <li><a href="wooCommerce.html">WooCommerce</a></li>
-                    <li><a href="openCart.html">Opencart</a></li>
-                    <li><a href="bigCommerce.html">BigCommerce</a></li>
-                    <li><a href="clickFunnels.html">ClickFunnels</a></li>
-                </ul>
-            </div>
-
-        </div>
-        <div class="footer-boxes">
-            <div class="footer-first">
-                <h5>ONLINE MARKETING</h5>
-
-
-
-                <ul>
-
-                    <li><a href="seo.html"> SEO Services </a></li>
-                    <li><a href="search-engine-marketing.html"> Search Engine Marketing </a></li>
-                    <li><a href="social-media-marketing.html"> Social Media Marketing </a></li>
-                    <li><a href="pay-per-click.html"> Pay Per Click Management </a></li>
-                    <li><a href="seo-copy-writing.html"> SEO Copy Writing </a></li>
-                    <li><a href="digital-marketing.html"> Digital Marketing </a></li>
-                    <li><a href="brand-consulting.html"> Brand Consulting </a></li>
-                    <li><a href="lead-management.html">Lead Management System </a></li>
-                </ul>
-            </div>
-
-            <div class="footer-first">
-                <h5>HIRE DEVELOPERS</h5>
-                <ul>
-                    <li><a href="hire-flutter-developer.html">Hire Flutter Developer</a></li>
-                    <li><a href="hire-laravel-developer.html">Hire Laravel Developer</a></li>
-                    <li><a href="hire-logo-designers.html">Hire Logo Designers</a></li>
-                    <li><a href="hire-magento-developer.html">Hire Magento Developer</a></li>
-                    <li><a href="hire-php-developer.html">Hire PHP Developer</a></li>
-                    <li><a href="hire-seo-expert.html">Hire SEO Experts</a></li>
-                    <li><a href="hire-wordpress-developer.html">Hire WordPress Developer</a></li>
-                </ul>
-            </div>
 
 
         </div>
 
-        <div class="footer-boxes">
-            <div class="footer-first">
-                <h5>CUSTOM SOFTWARE</h5>
-                <ul>
-                    <li><a href="ai-machine-learning.html"> AI and Machine Learning</a></li>
-                    <li><a href="crm-development.html">CRM Development</a></li>
-                    <li><a href="erp-software.html">ERP Software</a></li>
-                    <li><a href="cloud-app.html">Cloud App</a></li>
-                    <li><a href="product-development.html">Product Development</a></li>
-                    <li><a href="nft-marketplace.html">NFT marketplace </a></li>
-                    <li><a href="web-app.html"> WebApp </a></li>
-                    <li><a href="application-development.html"> Application Development </a></li>
-                </ul>
-            </div>
-            <div class="footer-first">
-                <h5>Mobile App Development</h5>
-                <ul>
-                    <li><a href="ios-app.html">iOS App</a></li>
-                    <li><a href="android-app.html">Android App</a></li>
-                    <li><a href="react-native.html">React Native</a></li>
-                    <li><a href="flutter-app.html">Flutter</a></li>
-                    <li><a href="cross-mobile-development.html">Cross-Platform</a></li>
-                    <li><a href="hybrid-app.html">Hybrid App</a></li>
-                </ul>
+        <!-- FAQ End  -->
 
-            </div>
-
-
-        </div>
-
-
-    </footer>
-    <!-- /////////////////footer section end/////////////// -->
-
-    <!-- After footer start -->
-
-    <section class="after-footer">
-        <p>@Developed by <a href="https://iqtechway.com/">iqtechway</a></p>
-
-        <p><a href="privacy-policy.html">Privacy Policy</a></p>
-    </section>
-
-    <!-- After footer end -->
-    <!--/////////////////////////// footer section end/////////////////////// -->
-
-
-
-    <div id="progress">
-        <span id="progress-value"><i class="fa-solid fa-rocket"></i></span>
-    </div>
-
-
-    <script>
-
-        // Navbar Toggle 
-
-        let calcScrollValue = () => {
-            let scrollProgress = document.getElementById("progress");
-            let progressValue = document.getElementById("progress-value");
-            let pos = document.documentElement.scrollTop;
-            let calcHeight =
-                document.documentElement.scrollHeight -
-                document.documentElement.clientHeight;
-            let scrollValue = Math.round((pos * 100) / calcHeight);
-            if (pos > 100) {
-                scrollProgress.style.bottom = "100px";
-            } else {
-                scrollProgress.style.bottom = "120%";
-            }
-            scrollProgress.addEventListener("click", () => {
-                document.documentElement.scrollTop = 0;
-            });
-            scrollProgress.style.background = `conic-gradient(#ed1943 ${scrollValue}%, #d7d7d7 ${scrollValue}%)`;
-        };
-
-        window.onscroll = calcScrollValue;
-        window.onload = calcScrollValue;
-
-    </script>
-    <!-- begin olark code -->
-    <script type="text/javascript" async>
-        ; (function (o, l, a, r, k, y) {
-            if (o.olark) return;
-            r = "script"; y = l.createElement(r); r = l.getElementsByTagName(r)[0];
-            y.async = 1; y.src = "//" + a; r.parentNode.insertBefore(y, r);
-            y = o.olark = function () { k.s.push(arguments); k.t.push(+new Date) };
-            y.extend = function (i, j) { y("extend", i, j) };
-            y.identify = function (i) { y("identify", k.i = i) };
-            y.configure = function (i, j) { y("configure", i, j); k.c[i] = j };
-            k = y._ = { s: [], t: [+new Date], c: {}, l: a };
-        })(window, document, "static.olark.com/jsclient/loader.js");/* custom configuration goes here (www.olark.com/documentation) */olark.identify('9134-624-10-9995');</script>
-    <!-- end olark code -->
-
-    <!-- Mobile Responsive Social Icons Start -->
-
-    <section class="mobile-social-icons">
-        <div class="mobile-social-container">
-            <div id="mobileToggler" class="mobile-social-toggler">
-                <span>
-                    <i class="fa-solid fa-address-book fa-shake"></i>
-                </span>
-            </div>
-            <div class="mobile-toggler-menus">
-                <div class="mobile-menus-container">
-                    <span style="--i:1;--bac:rgb(0, 81, 255);">
-                        <a href="tel:+917538857567" target="_blank" class="social-links">
-                            <i class="fa-solid fa-phone"></i>
-                        </a>
-                    </span>
-                    <span style="--i:2;--bac:green;">
-                        <a href="https://wa.me/+917538857567" target="_blank" class="social-links">
-                            <i class="fa-brands fa-whatsapp"></i>
-                        </a>
-                    </span>
-                    <span style="--i:3;--bac:rgb(74, 204, 255);">
-                        <a href="#" target="_blank" class="social-links">
-                            <i class="fa-brands fa-skype"></i>
-                        </a>
-                    </span>
-                    <span style="--i:4;--bac:rgb(0, 81, 255);">
-                        <a href="mailto:info@iqtechway.com" target="_blank" class="social-links">
-                            <i class="fa-solid fa-envelope"></i>
-                        </a>
-                    </span>
-                </div>
-
-            </div>
-        </div>
 
         <script>
-            // Mobile Menus Teggler 
 
-            let mobileToggler = document.querySelector('.mobile-social-toggler');
-            let mobileTogglerMenus = document.querySelector('.mobile-toggler-menus');
+            // <!-- FAQ'S  -->
 
-            mobileToggler.addEventListener('click', () => {
-                mobileTogglerMenus.classList.toggle('mobResponsive');
-                mobileToggler.classList.toggle('ro45');
+            const buttons = document.querySelectorAll("#button");
+
+
+            buttons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const faq = button.nextElementSibling;
+                    const icon = button.children[1];
+
+                    faq.classList.toggle('show');
+                    icon.classList.toggle('rotate');
+                })
+            })
+
+        </script>
+
+
+        <section class="servc-c padng-sec">
+            <div class="container">
+                <div class="sub-hd text-center">
+                    <h5>Our <span>Blogs</span></h5>
+                    <h2>Latest <span>Blogs</span> </h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="servc-sngl-c-sdo">
+                            <div class="servc-shdo-c">
+                            </div>
+                            <a href="blog.html" class="servc-sngl-c mpb-app-c">
+                                <img src="assets/Images/case-studies/2.png" class="bb-news" alt="Blog">
+                                <div class="servc-sngl-txt-c">
+                                    <div class="sub-hd-serv-c text-center">
+                                        <h6>November 25,2023</h6>
+
+                                        <h3>Adapting to the New Bounce Rate Metrics in GA4: What You Need to Know</h3>
+                                    </div>
+                                    <p>In the ever-evolving landscape of digital marketing and website analytics,
+                                        staying
+                                        ahead of the curve is not just …
+                                    </p>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="servc-sngl-c-sdo">
+                            <div class="servc-shdo-c">
+                            </div>
+                            <a href="blog.html" class="servc-sngl-c wb-app-c">
+                                <img src="assets/Images/case-studies/3.png" class="bb-news" alt="Blog">
+
+                                <div class="servc-sngl-txt-c">
+                                    <div class="sub-hd-serv-c text-center">
+                                        <h6>November 15,2023</h6>
+
+                                        <h3>The Impact of Duplicate Content on Your Website’s SEO</h3>
+                                    </div>
+                                    <p>In the ever-evolving landscape of digital marketing, achieving a top-notch SEO
+                                        strategy is paramount for online success. Businesses …</p>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="servc-sngl-c-sdo">
+                            <div class="servc-shdo-c">
+                            </div>
+                            <a href="blog.html" class="servc-sngl-c sft-dev-c">
+                                <img src="assets/Images/blog/1.jpg" class="bb-news" alt="Blog">
+
+                                <div class="servc-sngl-txt-c">
+                                    <div class="sub-hd-serv-c text-center">
+                                        <h6>November 30,2023</h6>
+
+                                        <h3>The Power of Festive Posts: 5 Reasons Your Brand Needs Them</h3>
+                                    </div>
+                                    <p>The Gateway to Building Brand Loyalty As the holiday season is fast approaching,
+                                        businesses are looking for new …</p>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Android App Development Services End -->
+
+
+        <!--/////////////////////////// footer section start/////////////////////// -->
+        <footer>
+            <div class="footer-boxes">
+                <div class="footer-first">
+                    <h5>Get in Touch</h5>
+                    <ul>
+                        <li><a href="tel:+919884565567">Contact No : +919884565567 </a></li>
+                        <li><a href="tel:+917538857567">Another Contact No : +917538857567</a></li>
+                        <li><a href="mailto:info@iqtechway.com">Email: info@iqtechway.com</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-first">
+                    <h5>Office Branch</h5>
+                    <ul class="branch">
+                        <li>
+                            <h6>Head Branch</h6>
+                            <a href="https://maps.app.goo.gl/g6q1UV33t5EqoUjx5" target="_blank">
+                                204 A, A.K.G.COMPLEX, New Siddhapudur, Tamil Nadu 641044
+                            </a>
+                        </li>
+                        <li>
+                            <h6>BRANCH OFFICE (Madurai) </h6>
+                            <a href="https://maps.app.goo.gl/NXefb1rnyqFT96kE8" target="_blank">
+                                1st floor, Bank of Baroda upstairs, 5, Sakthi Velammal St, Sakthi Velammal Nagar, S S
+                                Colony, Madurai, Tamil Nadu 625010
+                            </a>
+                        </li>
+                        <li>
+                            <h6>BRANCH OFFICE (Coimbatore)</h6>
+                            <a href="https://maps.app.goo.gl/15FyYif4Y6E4Kfxe7" target="_blank">
+                                Ani complex, 185/18, Kamarajar St, Tholampalayam Rd, coimbatore, Tamil Nadu 641104
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="footer-first">
+                    <h5>Follow Us</h5>
+                    <div class="footer-social-link">
+                        <a href="https://www.facebook.com/IQTechWay" target="_blank"><i
+                                class="fa-brands fa-facebook fa-xl"></i></a>
+                        <a href="https://www.instagram.com/iqtechway/?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA%3D%3D"
+                            target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                        <a href="https://wa.me/+917538857567" target="_blank"><i
+                                class="fa-brands fa-whatsapp fa-xl"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer-boxes">
+                <div class="footer-first">
+                    <h5>WEB DEVELOPMENT</h5>
+
+                    <ul>
+                        <li><a href="frontend.html">Frontend</a></li>
+                        <li><a href="php.html"> PHP Backend </a></li>
+                        <li><a href="java.html"> Java </a></li>
+                        <li><a href="nodejs.html"> Node.js </a></li>
+                        <li><a href="dotNet.html"> .Net </a></li>
+                        <li><a href="typeScript.html"> Typescript </a></li>
+                    </ul>
+                </div>
+                <div class="footer-first">
+                    <h5>CMS Development</h5>
+                    <ul>
+                        <li><a href="wordpress.html">Wordpress</a></li>
+                        <li><a href="magento.html">Magento</a></li>
+                        <li><a href="shopify.html">Shopify</a></li>
+                        <li><a href="joomla.html">Joomla</a></li>
+                        <li><a href="drupal.html">Drupal</a></li>
+                        <li><a href="wooCommerce.html">WooCommerce</a></li>
+                        <li><a href="openCart.html">Opencart</a></li>
+                        <li><a href="bigCommerce.html">BigCommerce</a></li>
+                        <li><a href="clickFunnels.html">ClickFunnels</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="footer-boxes">
+                <div class="footer-first">
+                    <h5>ONLINE MARKETING</h5>
+
+
+
+                    <ul>
+
+                        <li><a href="seo.html"> SEO Services </a></li>
+                        <li><a href="search-engine-marketing.html"> Search Engine Marketing </a></li>
+                        <li><a href="social-media-marketing.html"> Social Media Marketing </a></li>
+                        <li><a href="pay-per-click.html"> Pay Per Click Management </a></li>
+                        <li><a href="seo-copy-writing.html"> SEO Copy Writing </a></li>
+                        <li><a href="digital-marketing.html"> Digital Marketing </a></li>
+                        <li><a href="brand-consulting.html"> Brand Consulting </a></li>
+                        <li><a href="lead-management.html">Lead Management System </a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-first">
+                    <h5>HIRE DEVELOPERS</h5>
+                    <ul>
+                        <li><a href="hire-flutter-developer.html">Hire Flutter Developer</a></li>
+                        <li><a href="hire-laravel-developer.html">Hire Laravel Developer</a></li>
+                        <li><a href="hire-logo-designers.html">Hire Logo Designers</a></li>
+                        <li><a href="hire-magento-developer.html">Hire Magento Developer</a></li>
+                        <li><a href="hire-php-developer.html">Hire PHP Developer</a></li>
+                        <li><a href="hire-seo-expert.html">Hire SEO Experts</a></li>
+                        <li><a href="hire-wordpress-developer.html">Hire WordPress Developer</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="footer-boxes">
+                <div class="footer-first">
+                    <h5>CUSTOM SOFTWARE</h5>
+                    <ul>
+                        <li><a href="ai-machine-learning.html"> AI and Machine Learning</a></li>
+                        <li><a href="crm-development.html">CRM Development</a></li>
+                        <li><a href="erp-software.html">ERP Software</a></li>
+                        <li><a href="cloud-app.html">Cloud App</a></li>
+                        <li><a href="product-development.html">Product Development</a></li>
+                        <li><a href="nft-marketplace.html">NFT marketplace </a></li>
+                        <li><a href="web-app.html"> WebApp </a></li>
+                        <li><a href="application-development.html"> Application Development </a></li>
+                    </ul>
+                </div>
+                <div class="footer-first">
+                    <h5>Mobile App Development</h5>
+                    <ul>
+                        <li><a href="ios-app.html">iOS App</a></li>
+                        <li><a href="android-app.html">Android App</a></li>
+                        <li><a href="react-native.html">React Native</a></li>
+                        <li><a href="flutter-app.html">Flutter</a></li>
+                        <li><a href="cross-mobile-development.html">Cross-Platform</a></li>
+                        <li><a href="hybrid-app.html">Hybrid App</a></li>
+                    </ul>
+
+                </div>
+
+
+            </div>
+
+
+        </footer>
+        <!-- /////////////////footer section end/////////////// -->
+
+        <!-- After footer start -->
+
+        <section class="after-footer">
+            <p>@Developed by <a href="https://iqtechway.com/">iqtechway</a></p>
+
+            <p><a href="privacy-policy.html">Privacy Policy</a></p>
+        </section>
+
+        <!-- After footer end -->
+        <!--/////////////////////////// footer section end/////////////////////// -->
+
+
+
+        <div id="progress">
+            <span id="progress-value"><i class="fa-solid fa-rocket"></i></span>
+        </div>
+
+
+        <script>
+
+            // Navbar Toggle 
+
+            let calcScrollValue = () => {
+                let scrollProgress = document.getElementById("progress");
+                let progressValue = document.getElementById("progress-value");
+                let pos = document.documentElement.scrollTop;
+                let calcHeight =
+                    document.documentElement.scrollHeight -
+                    document.documentElement.clientHeight;
+                let scrollValue = Math.round((pos * 100) / calcHeight);
+                if (pos > 100) {
+                    scrollProgress.style.bottom = "100px";
+                } else {
+                    scrollProgress.style.bottom = "120%";
+                }
+                scrollProgress.addEventListener("click", () => {
+                    document.documentElement.scrollTop = 0;
+                });
+                scrollProgress.style.background = `conic-gradient(#ed1943 ${scrollValue}%, #d7d7d7 ${scrollValue}%)`;
+            };
+
+            window.onscroll = calcScrollValue;
+            window.onload = calcScrollValue;
+
+        </script>
+        <!-- begin olark code -->
+        <script type="text/javascript" async>
+            ; (function (o, l, a, r, k, y) {
+                if (o.olark) return;
+                r = "script"; y = l.createElement(r); r = l.getElementsByTagName(r)[0];
+                y.async = 1; y.src = "//" + a; r.parentNode.insertBefore(y, r);
+                y = o.olark = function () { k.s.push(arguments); k.t.push(+new Date) };
+                y.extend = function (i, j) { y("extend", i, j) };
+                y.identify = function (i) { y("identify", k.i = i) };
+                y.configure = function (i, j) { y("configure", i, j); k.c[i] = j };
+                k = y._ = { s: [], t: [+new Date], c: {}, l: a };
+            })(window, document, "static.olark.com/jsclient/loader.js");/* custom configuration goes here (www.olark.com/documentation) */olark.identify('9134-624-10-9995');</script>
+        <!-- end olark code -->
+
+        <!-- Mobile Responsive Social Icons Start -->
+
+        <section class="mobile-social-icons">
+            <div class="mobile-social-container">
+                <div id="mobileToggler" class="mobile-social-toggler">
+                    <span>
+                        <i class="fa-solid fa-address-book fa-shake"></i>
+                    </span>
+                </div>
+                <div class="mobile-toggler-menus">
+                    <div class="mobile-menus-container">
+                        <span style="--i:1;--bac:rgb(0, 81, 255);">
+                            <a href="tel:+917538857567" target="_blank" class="social-links">
+                                <i class="fa-solid fa-phone"></i>
+                            </a>
+                        </span>
+                        <span style="--i:2;--bac:green;">
+                            <a href="https://wa.me/+917538857567" target="_blank" class="social-links">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </span>
+                        <span style="--i:3;--bac:rgb(74, 204, 255);">
+                            <a href="#" target="_blank" class="social-links">
+                                <i class="fa-brands fa-skype"></i>
+                            </a>
+                        </span>
+                        <span style="--i:4;--bac:rgb(0, 81, 255);">
+                            <a href="mailto:info@iqtechway.com" target="_blank" class="social-links">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+
+            <script>
+                // Mobile Menus Teggler 
+
+                let mobileToggler = document.querySelector('.mobile-social-toggler');
+                let mobileTogglerMenus = document.querySelector('.mobile-toggler-menus');
+
+                mobileToggler.addEventListener('click', () => {
+                    mobileTogglerMenus.classList.toggle('mobResponsive');
+                    mobileToggler.classList.toggle('ro45');
+                });
+
+
+
+            </script>
+        </section>
+
+        <!-- Mobile Responsive Social Icons End -->
+        <!-- ////////////////////////////JS Elements ////////////////////// -->
+        <script src="assets/JS/script.js"></script>
+
+        <!-- ////////////////////////////JS Elements ////////////////////// -->
+        <script src="assets/JS/bootstrap.bundle.min.js"></script>
+
+
+        <!-- ////////////////////////////JS Elements ////////////////////// -->
+        <script src="assets/JS/jquery.js"></script>
+
+        <!-- ////////////////////////////JS Elements ////////////////////// -->
+        <script src="assets/JS/tilt.js"></script>
+
+        <!--//////////////////// Owl Carousel Elements ////////////////////////////// -->
+
+        <script src="assets/JS/owl.carousel.min.js"></script>
+
+        <script>
+            // Mobile Responsive icons 
+
+            $(document).ready(function () {
+                $(".fa-address-book").click(function () {
+
+                    if ($(this).hasClass('fa-address-book')) {
+                        // Do something if class exists
+                        $(this).removeClass("fa-address-book");
+                        $(this).addClass("fa-xmark");
+                    } else {
+                        // Do something if class does not exist
+                        $(this).removeClass("fa-xmark");
+                        $(this).addClass("fa-address-book");
+                    }
+
+                    //////////////////////////////////
+
+                    // $(".fa-address-book").addClass("fa-xmark");
+                    // $(".fa-xmark").removeClass("fa-address-book")
+                })
+
+
+            })
+
+        </script>
+
+
+        <script>
+
+
+            var owl = $('.owl-carousel-2');
+            owl.owlCarousel(
+                {
+                    loop: true,
+                    margin: 10,
+                    nav: false,
+                    autoplay: true,
+                    margin: 20,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 2
+                        },
+                        1000: {
+                            items: 1
+                        }
+                    }
+                }
+            );
+            // Go to the next item
+            $('.owl-next').click(function () {
+                owl.trigger('next.owl.carousel');
+            })
+            // Go to the previous item
+            $('.owl-prev').click(function () {
+                // With optional speed parameter
+                // Parameters has to be in square bracket '[]'
+                owl.trigger('prev.owl.carousel', [300]);
+            })
+
+        </script>
+
+
+        <script>
+
+            var owl = $('.owl-carousel-1');
+            owl.owlCarousel(
+                {
+                    loop: true,
+                    margin: 10,
+                    nav: false,
+                    autoplay: true,
+                    margin: 20,
+                    autoplayTimeout: 4000,
+                    autoplayHoverPause: true,
+                    smartSpeed: 3000,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 2
+                        },
+                        1000: {
+                            items: 2
+                        }
+                    }
+                }
+            );
+            // Go to the next item
+            $('.owl-next').click(function () {
+                owl.trigger('next.owl.carousel');
+            })
+            // Go to the previous item
+            $('.owl-prev').click(function () {
+                // With optional speed parameter
+                // Parameters has to be in square bracket '[]'
+                owl.trigger('prev.owl.carousel', [300]);
+            })
+        </script>
+
+
+        <!--///////////////// jquery Script for button Styling //////////////// -->
+
+
+        <script>
+            $(document).ready(function () {
+                $(".load-btn1").mouseover(function () {
+
+                    $(this).addClass("pro-active");
+                    $(".load-btn2").removeClass("pro-active")
+                    $(".load-btn3").removeClass("pro-active")
+                    $(".load-btn4").removeClass("pro-active")
+                    $(".load-btn5").removeClass("pro-active")
+                    $(".load-btn6").removeClass("pro-active")
+                    $(".load-btn7").removeClass("pro-active")
+                    $(".load-btn8").removeClass("pro-active")
+
+                })
+
+                $(".load-btn2").mouseover(function () {
+
+                    $(this).addClass("pro-active");
+                    $(".load-btn1").removeClass("pro-active")
+                    $(".load-btn3").removeClass("pro-active")
+                    $(".load-btn4").removeClass("pro-active")
+                    $(".load-btn5").removeClass("pro-active")
+                    $(".load-btn6").removeClass("pro-active")
+                    $(".load-btn7").removeClass("pro-active")
+                    $(".load-btn8").removeClass("pro-active")
+
+                })
+
+                $(".load-btn3").mouseover(function () {
+
+                    $(this).addClass("pro-active");
+                    $(".load-btn1").removeClass("pro-active")
+                    $(".load-btn2").removeClass("pro-active")
+                    $(".load-btn4").removeClass("pro-active")
+                    $(".load-btn5").removeClass("pro-active")
+                    $(".load-btn6").removeClass("pro-active")
+                    $(".load-btn7").removeClass("pro-active")
+                    $(".load-btn8").removeClass("pro-active")
+
+                })
+                $(".load-btn4").mouseover(function () {
+
+                    $(this).addClass("pro-active");
+                    $(".load-btn1").removeClass("pro-active")
+                    $(".load-btn3").removeClass("pro-active")
+                    $(".load-btn2").removeClass("pro-active")
+                    $(".load-btn5").removeClass("pro-active")
+                    $(".load-btn6").removeClass("pro-active")
+                    $(".load-btn7").removeClass("pro-active")
+                    $(".load-btn8").removeClass("pro-active")
+
+                })
+                $(".load-btn5").mouseover(function () {
+
+                    $(this).addClass("pro-active");
+                    $(".load-btn1").removeClass("pro-active")
+                    $(".load-btn3").removeClass("pro-active")
+                    $(".load-btn4").removeClass("pro-active")
+                    $(".load-btn2").removeClass("pro-active")
+                    $(".load-btn6").removeClass("pro-active")
+                    $(".load-btn7").removeClass("pro-active")
+                    $(".load-btn8").removeClass("pro-active")
+
+                })
+                $(".load-btn6").mouseover(function () {
+
+                    $(this).addClass("pro-active");
+                    $(".load-btn1").removeClass("pro-active")
+                    $(".load-btn3").removeClass("pro-active")
+                    $(".load-btn4").removeClass("pro-active")
+                    $(".load-btn5").removeClass("pro-active")
+                    $(".load-btn2").removeClass("pro-active")
+                    $(".load-btn7").removeClass("pro-active")
+                    $(".load-btn8").removeClass("pro-active")
+
+                })
+                $(".load-btn7").mouseover(function () {
+
+                    $(this).addClass("pro-active");
+                    $(".load-btn1").removeClass("pro-active")
+                    $(".load-btn3").removeClass("pro-active")
+                    $(".load-btn4").removeClass("pro-active")
+                    $(".load-btn5").removeClass("pro-active")
+                    $(".load-btn6").removeClass("pro-active")
+                    $(".load-btn2").removeClass("pro-active")
+                    $(".load-btn8").removeClass("pro-active")
+
+                })
+
+                $(".load-btn8").mouseover(function () {
+
+                    $(this).addClass("pro-active");
+                    $(".load-btn1").removeClass("pro-active")
+                    $(".load-btn3").removeClass("pro-active")
+                    $(".load-btn4").removeClass("pro-active")
+                    $(".load-btn5").removeClass("pro-active")
+                    $(".load-btn6").removeClass("pro-active")
+                    $(".load-btn7").removeClass("pro-active")
+                    $(".load-btn2").removeClass("pro-active")
+
+                })
+            })
+
+        </script>
+
+
+        <script>
+
+            // NAvbar BG 
+
+            let navbarBg = document.querySelector('.navbar');
+            let navBtn = document.querySelector('.navbar-toggler');
+            let pngWhite = document.querySelector('.png-white');
+            let pngRed = document.querySelector('.png-red');
+
+
+
+
+            window.addEventListener('scroll', () => {
+
+                if (window.scrollY >= 90) {
+                    navbarBg.classList.add('nav-background');
+                    pngWhite.classList.toggle('nav-opacity');
+                    pngRed.classList.remove('nav-opacity');
+                    pngRed.style.opacity = '1';
+                    pngRed.style.zindex = '1';
+                    pngWhite.style.opacity = '0';
+                    pngWhite.style.zindex = '0';
+
+                } else if (window.scrollY < 90) {
+                    navbarBg.classList.remove('nav-background');
+                    pngRed.classList.toggle('nav-opacity');
+                    pngWhite.classList.remove('nav-opacity');
+                    pngWhite.style.opacity = '1';
+                    pngRed.style.opacity = '0';
+                    pngRed.style.zindex = '0';
+                    pngWhite.style.zindex = '1';
+
+                } else if (window.scrollY == 0) {
+                    pngRed.classList.add('nav-opacity');
+                    pngRed.style.opacity = '0';
+
+
+                } else if (window.scrollY < 0) {
+                    pngRed.classList.add('nav-opacity');
+                    pngRed.style.opacity = '0';
+                } else {
+                    pngRed.classList.add('nav-opacity');
+                    pngRed.style.opacity = '0';
+                }
+
             });
 
+            navBtn.addEventListener('click', () => {
+
+                if (navbarBg.classList.add('nav-background')) {
+                    navbarBg.classList.remove('nav-background');
+
+                } else {
+                    navbarBg.classList.add('nav-background');
+
+                }
+
+            })
 
 
         </script>
-    </section>
-
-    <!-- Mobile Responsive Social Icons End -->
-    <!-- ////////////////////////////JS Elements ////////////////////// -->
-    <script src="assets/JS/script.js"></script>
-
-    <!-- ////////////////////////////JS Elements ////////////////////// -->
-    <script src="assets/JS/bootstrap.bundle.min.js"></script>
-
-
-    <!-- ////////////////////////////JS Elements ////////////////////// -->
-    <script src="assets/JS/jquery.js"></script>
-
-    <!-- ////////////////////////////JS Elements ////////////////////// -->
-    <script src="assets/JS/tilt.js"></script>
-
-    <!--//////////////////// Owl Carousel Elements ////////////////////////////// -->
-
-    <script src="assets/JS/owl.carousel.min.js"></script>
-
-    <script>
-        // Mobile Responsive icons 
-
-        $(document).ready(function () {
-            $(".fa-address-book").click(function () {
-
-                if ($(this).hasClass('fa-address-book')) {
-                    // Do something if class exists
-                    $(this).removeClass("fa-address-book");
-                    $(this).addClass("fa-xmark");
-                } else {
-                    // Do something if class does not exist
-                    $(this).removeClass("fa-xmark");
-                    $(this).addClass("fa-address-book");
-                }
-
-                //////////////////////////////////
-
-                // $(".fa-address-book").addClass("fa-xmark");
-                // $(".fa-xmark").removeClass("fa-address-book")
-            })
-
-
-        })
-
-    </script>
-
-
-    <script>
-
-
-        var owl = $('.owl-carousel-2');
-        owl.owlCarousel(
-            {
-                loop: true,
-                margin: 10,
-                nav: false,
-                autoplay: true,
-                margin: 20,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 2
-                    },
-                    1000: {
-                        items: 1
-                    }
-                }
-            }
-        );
-        // Go to the next item
-        $('.owl-next').click(function () {
-            owl.trigger('next.owl.carousel');
-        })
-        // Go to the previous item
-        $('.owl-prev').click(function () {
-            // With optional speed parameter
-            // Parameters has to be in square bracket '[]'
-            owl.trigger('prev.owl.carousel', [300]);
-        })
-
-    </script>
-
-
-    <script>
-
-        var owl = $('.owl-carousel-1');
-        owl.owlCarousel(
-            {
-                loop: true,
-                margin: 10,
-                nav: false,
-                autoplay: true,
-                margin: 20,
-                autoplayTimeout: 4000,
-                autoplayHoverPause: true,
-                smartSpeed: 3000,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 2
-                    },
-                    1000: {
-                        items: 2
-                    }
-                }
-            }
-        );
-        // Go to the next item
-        $('.owl-next').click(function () {
-            owl.trigger('next.owl.carousel');
-        })
-        // Go to the previous item
-        $('.owl-prev').click(function () {
-            // With optional speed parameter
-            // Parameters has to be in square bracket '[]'
-            owl.trigger('prev.owl.carousel', [300]);
-        })
-    </script>
-
-
-    <!--///////////////// jquery Script for button Styling //////////////// -->
-
-
-    <script>
-        $(document).ready(function () {
-            $(".load-btn1").mouseover(function () {
-
-                $(this).addClass("pro-active");
-                $(".load-btn2").removeClass("pro-active")
-                $(".load-btn3").removeClass("pro-active")
-                $(".load-btn4").removeClass("pro-active")
-                $(".load-btn5").removeClass("pro-active")
-                $(".load-btn6").removeClass("pro-active")
-                $(".load-btn7").removeClass("pro-active")
-                $(".load-btn8").removeClass("pro-active")
-
-            })
-
-            $(".load-btn2").mouseover(function () {
-
-                $(this).addClass("pro-active");
-                $(".load-btn1").removeClass("pro-active")
-                $(".load-btn3").removeClass("pro-active")
-                $(".load-btn4").removeClass("pro-active")
-                $(".load-btn5").removeClass("pro-active")
-                $(".load-btn6").removeClass("pro-active")
-                $(".load-btn7").removeClass("pro-active")
-                $(".load-btn8").removeClass("pro-active")
-
-            })
-
-            $(".load-btn3").mouseover(function () {
-
-                $(this).addClass("pro-active");
-                $(".load-btn1").removeClass("pro-active")
-                $(".load-btn2").removeClass("pro-active")
-                $(".load-btn4").removeClass("pro-active")
-                $(".load-btn5").removeClass("pro-active")
-                $(".load-btn6").removeClass("pro-active")
-                $(".load-btn7").removeClass("pro-active")
-                $(".load-btn8").removeClass("pro-active")
-
-            })
-            $(".load-btn4").mouseover(function () {
-
-                $(this).addClass("pro-active");
-                $(".load-btn1").removeClass("pro-active")
-                $(".load-btn3").removeClass("pro-active")
-                $(".load-btn2").removeClass("pro-active")
-                $(".load-btn5").removeClass("pro-active")
-                $(".load-btn6").removeClass("pro-active")
-                $(".load-btn7").removeClass("pro-active")
-                $(".load-btn8").removeClass("pro-active")
-
-            })
-            $(".load-btn5").mouseover(function () {
-
-                $(this).addClass("pro-active");
-                $(".load-btn1").removeClass("pro-active")
-                $(".load-btn3").removeClass("pro-active")
-                $(".load-btn4").removeClass("pro-active")
-                $(".load-btn2").removeClass("pro-active")
-                $(".load-btn6").removeClass("pro-active")
-                $(".load-btn7").removeClass("pro-active")
-                $(".load-btn8").removeClass("pro-active")
-
-            })
-            $(".load-btn6").mouseover(function () {
-
-                $(this).addClass("pro-active");
-                $(".load-btn1").removeClass("pro-active")
-                $(".load-btn3").removeClass("pro-active")
-                $(".load-btn4").removeClass("pro-active")
-                $(".load-btn5").removeClass("pro-active")
-                $(".load-btn2").removeClass("pro-active")
-                $(".load-btn7").removeClass("pro-active")
-                $(".load-btn8").removeClass("pro-active")
-
-            })
-            $(".load-btn7").mouseover(function () {
-
-                $(this).addClass("pro-active");
-                $(".load-btn1").removeClass("pro-active")
-                $(".load-btn3").removeClass("pro-active")
-                $(".load-btn4").removeClass("pro-active")
-                $(".load-btn5").removeClass("pro-active")
-                $(".load-btn6").removeClass("pro-active")
-                $(".load-btn2").removeClass("pro-active")
-                $(".load-btn8").removeClass("pro-active")
-
-            })
-
-            $(".load-btn8").mouseover(function () {
-
-                $(this).addClass("pro-active");
-                $(".load-btn1").removeClass("pro-active")
-                $(".load-btn3").removeClass("pro-active")
-                $(".load-btn4").removeClass("pro-active")
-                $(".load-btn5").removeClass("pro-active")
-                $(".load-btn6").removeClass("pro-active")
-                $(".load-btn7").removeClass("pro-active")
-                $(".load-btn2").removeClass("pro-active")
-
-            })
-        })
-
-    </script>
-
-
-    <script>
-
-        // NAvbar BG 
-
-        let navbarBg = document.querySelector('.navbar');
-        let navBtn = document.querySelector('.navbar-toggler');
-        let pngWhite = document.querySelector('.png-white');
-        let pngRed = document.querySelector('.png-red');
-
-
-
-
-        window.addEventListener('scroll', () => {
-
-            if (window.scrollY >= 90) {
-                navbarBg.classList.add('nav-background');
-                pngWhite.classList.toggle('nav-opacity');
-                pngRed.classList.remove('nav-opacity');
-                pngRed.style.opacity = '1';
-                pngRed.style.zindex = '1';
-                pngWhite.style.opacity = '0';
-                pngWhite.style.zindex = '0';
-
-            } else if (window.scrollY < 90) {
-                navbarBg.classList.remove('nav-background');
-                pngRed.classList.toggle('nav-opacity');
-                pngWhite.classList.remove('nav-opacity');
-                pngWhite.style.opacity = '1';
-                pngRed.style.opacity = '0';
-                pngRed.style.zindex = '0';
-                pngWhite.style.zindex = '1';
-
-            } else if (window.scrollY == 0) {
-                pngRed.classList.add('nav-opacity');
-                pngRed.style.opacity = '0';
-
-
-            } else if (window.scrollY < 0) {
-                pngRed.classList.add('nav-opacity');
-                pngRed.style.opacity = '0';
-            } else {
-                pngRed.classList.add('nav-opacity');
-                pngRed.style.opacity = '0';
-            }
-
-        });
-
-        navBtn.addEventListener('click', () => {
-
-            if (navbarBg.classList.add('nav-background')) {
-                navbarBg.classList.remove('nav-background');
-
-            } else {
-                navbarBg.classList.add('nav-background');
-
-            }
-
-        })
-
-
-    </script>
-    <!-- 
+        <!-- 
 <script type="text/javascript">
     (function () {
         var options = {
@@ -1467,7 +1748,7 @@
     })();
 </script> -->
 
-    <!-- <div class="nav-social-icons mobile-links d-lg-none">
+        <!-- <div class="nav-social-icons mobile-links d-lg-none">
     <a href="#" class="social-links">
         <i class="fa-solid fa-phone"></i>
     </a>
