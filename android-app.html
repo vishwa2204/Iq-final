@@ -31,6 +31,115 @@
     <link rel="stylesheet" href="assets/CSS/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/CSS/owl.theme.default.min.css">
 
+    <style>
+        .mini-industries-section {
+            width: 100%;
+            height: auto;
+            margin-bottom: 5%;
+            background-image: url(./assets/Images/banner/2.jpg) !important;
+            text-align: center;
+            background-attachment: fixed;
+            padding: 5%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            border: 1px solid var(--color);
+            border-radius: 25px;
+        }
+
+        .owl-item {
+            border-radius: 25px;
+            border: 1px solid var(--white);
+        }
+
+        .industries-develops-container {
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+
+        .industries-carousel-boxs {
+            height: 250px;
+            padding: 5%;
+        }
+
+        .industries-carousel-boxs h3 {
+            margin-bottom: 3%;
+        }
+
+        .industries-carousel-boxs h3 span {
+            padding: 1% 0%;
+            font-size: 25px;
+            position: relative;
+            -webkit-text-fill-color: transparent;
+            background: -webkit-radial-gradient(#ff0033, rgb(238, 255, 0));
+            -webkit-background-clip: text;
+        }
+
+
+        
+        .industries-carousel-boxs p{
+            font-size: 14px;
+        }
+
+        .industries-carousel-boxs li {
+            font-size: 14px;
+            margin-bottom: 3%;
+        }
+
+        .owl-prev {
+            background-color: transparent !important;
+            width: 30px !important;
+            height: 30px !important;
+            border-radius: 50% !important;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid var(--color);
+
+        }
+
+
+        .owl-next {
+            background-color: transparent !important;
+            width: 30px !important;
+            height: 30px !important;
+            border-radius: 50% !important;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid var(--color);
+        }
+
+        @media screen and (min-width:768px) {
+            .owl-nav {
+                position: absolute;
+                top: -80px;
+                right: 30px;
+            }
+
+            
+
+
+        }
+
+        @media screen and (max-width:768px) {
+            .industries-carousel-boxs {
+            height: 300px !important;
+            padding: 5%;
+        }
+        }
+
+        @media screen and (max-width:600px) {
+            .industries-carousel-boxs h3 span {
+                padding: 1% 8%;
+                font-size: 30px !important;
+                position: relative;
+                -webkit-text-fill-color: transparent;
+                background: -webkit-linear-gradient(#ed1943, #ffffff);
+                -webkit-background-clip: text;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -76,14 +185,14 @@
                             <div class=" load-calculate-boxs">
                                 <h5>Mobile Development</h5>
                                 <ul>
-                                    <li><a href="IOS-Mobile-Application-Development.html">iOS App</a></li>
+                                    <li><a href="IOS-Mobile-Application-Development.html">iOS App Development</a></li>
 
-                                    <li><a href="android-app.html">Android App</a></li>
-                                    <li><a href="react-native.html">React Native</a></li>
-                                    <li><a href="flutter-app.html">Flutter</a></li>
-                                    <li><a href="cross-mobile-development.html">Cross-Platform</a></li>
-                                    <li><a href="hybrid-app.html">Hybrid App</a></li>
-                                    <li><a href="pwa.html">PWA</a></li>
+                                    <li><a href="android-app.html">Android App Development</a></li>
+                                    <li><a href="react-native.html">React Native App Development</a></li>
+                                    <li><a href="flutter-app.html">Flutter App Development</a></li>
+                                    <li><a href="cross-mobile-development.html">Cross-Platform App Development</a></li>
+                                    <li><a href="hybrid-app.html">Hybrid App Development</a></li>
+                                    <li><a href="pwa.html">PWA Development</a></li>
 
                                 </ul>
                             </div>
@@ -116,16 +225,21 @@
                             <div class=" load-calculate-boxs">
                                 <h5>Web Development</h5>
                                 <ul>
-                                    <li><a href="frontend.html">Frontend</a></li>
-                                    <li><a href="php.html">PHP Backend</a></li>
-                                    <li><a href="java.html">Java</a></li>
-                                    <li><a href="nodejs.html">Node.js</a></li>
-                                    <li><a href="dotNet.html">.Net</a></li>
-                                    <li><a href="typeScript.html">Typescript</a></li>
+                                    <li><a href="frontend.html">Frontend Development</a></li>
+                                    <li><a href="php.html">PHP Backend Development</a></li>
+                                    <li><a href="java.html">Java Development</a></li>
+                                    <li><a href="typeScript.html">Typescript Development</a></li>
+                                    <li><a href="nodejs.html">Node.js Development</a></li>
+                                    <li><a href="dotNet.html">.Net Development</a></li>
+                                    <li><a href="mean-stack.html">MEAN Stack Development</a></li>
+                                    <li><a href="mern-stack.html">MERN Stack Development</a></li>
+                                    <li><a href="reactjs-development.html">ReactJS Developement</a></li>
+                                    <li><a href="expressjs-development.html">ExpressJS Developement</a></li>
+                                    <li><a href="vuejs-development.html">VueJS Developement</a></li>
                                 </ul>
                             </div>
                             <div class=" load-calculate-boxs">
-                                <h5>CMS Development</h5>
+                                <h5>Ecommerce & CMS Development</h5>
                                 <ul>
                                     <li><a href="wordpress.html">Wordpress</a></li>
                                     <li><a href="magento.html">Magento</a></li>
@@ -270,8 +384,6 @@
                                     class="fa-solid fa-plug fa-xl"></i>
                                 Case Studies <span></span></button></a><br>
                         <div class="dropdown">
-
-
                             <button class="btn load-btn5 btn-secondary accordion-button collapsed" type="button"
                                 data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                 aria-controls="flush-collapseTwo" onmouseover="function5()">
@@ -334,7 +446,8 @@
                             style="display: flex; justify-content: center; align-items: center;" id="load1">
 
                             <img src="assets/Images/logo/iq.png"
-                                style="width: 300px; height: 300px; object-fit: contain; filter: drop-shadow(10px 5px 5px var(--black));" alt="Logo">
+                                style="width: 300px; height: 300px; object-fit: contain; filter: drop-shadow(10px 5px 5px var(--black));"
+                                alt="Logo">
 
                         </div>
                         <div class="load-box-container" id="load2">
@@ -351,14 +464,14 @@
                             <div class=" load-calculate-boxs">
                                 <h5>Mobile Development</h5>
                                 <ul>
-                                    <li><a href="IOS-Mobile-Application-Development.html">iOS App</a></li>
+                                    <li><a href="IOS-Mobile-Application-Development.html">iOS App Development</a></li>
 
-                                    <li><a href="android-app.html">Android App</a></li>
-                                    <li><a href="react-native.html">React Native</a></li>
-                                    <li><a href="flutter-app.html">Flutter</a></li>
-                                    <li><a href="cross-mobile-development.html">Cross-Platform</a></li>
-                                    <li><a href="hybrid-app.html">Hybrid App</a></li>
-                                    <li><a href="pwa.html">PWA</a></li>
+                                    <li><a href="android-app.html">Android App Development</a></li>
+                                    <li><a href="react-native.html">React Native App Development</a></li>
+                                    <li><a href="flutter-app.html">Flutter App Development</a></li>
+                                    <li><a href="cross-mobile-development.html">Cross-Platform App Development</a></li>
+                                    <li><a href="hybrid-app.html">Hybrid App Development</a></li>
+                                    <li><a href="pwa.html">PWA Development</a></li>
 
                                 </ul>
                             </div>
@@ -391,26 +504,31 @@
                             <div class=" load-calculate-boxs">
                                 <h5>Web Development</h5>
                                 <ul>
-                                    <li><a href="frontend.html">Frontend</a></li>
-                                    <li><a href="php.html">PHP Backend</a></li>
-                                    <li><a href="java.html">Java</a></li>
-                                    <li><a href="nodejs.html">Node.js</a></li>
-                                    <li><a href="dotNet.html">.Net</a></li>
-                                    <li><a href="typeScript.html">Typescript</a></li>
+                                    <li><a href="frontend.html">Frontend Development</a></li>
+                                    <li><a href="php.html">PHP Backend Development</a></li>
+                                    <li><a href="java.html">Java Development</a></li>
+                                    <li><a href="typeScript.html">Typescript Development</a></li>
+                                    <li><a href="nodejs.html">Node.js Development</a></li>
+                                    <li><a href="dotNet.html">.Net Development</a></li>
+                                    <li><a href="mean-stack.html">MEAN Stack Development</a></li>
+                                    <li><a href="mern-stack.html">MERN Stack Development</a></li>
+                                    <li><a href="reactjs-development.html">ReactJS Developement</a></li>
+                                    <li><a href="expressjs-development.html">ExpressJS Developement</a></li>
+                                    <li><a href="vuejs-development.html">VueJS Developement</a></li>
                                 </ul>
                             </div>
                             <div class=" load-calculate-boxs">
-                                <h5>CMS Development</h5>
+                                <h5>Ecommerce & CMS Development</h5>
                                 <ul>
-                                    <li><a href="wordpress.html">Wordpress</a></li>
-                                    <li><a href="magento.html">Magento</a></li>
-                                    <li><a href="shopify.html">Shopify</a></li>
-                                    <li><a href="joomla.html">Joomla</a></li>
-                                    <li><a href="drupal.html">Drupal</a></li>
-                                    <li><a href="wooCommerce.html">WooCommerce</a></li>
-                                    <li><a href="openCart.html">Opencart</a></li>
-                                    <li><a href="bigCommerce.html">BigCommerce</a></li>
-                                    <li><a href="clickFunnels.html">ClickFunnels</a></li>
+                                    <li><a href="wordpress.html">Wordpress Development</a></li>
+                                    <li><a href="magento.html">Magento Development</a></li>
+                                    <li><a href="shopify.html">Shopify Development</a></li>
+                                    <li><a href="joomla.html">Joomla Development</a></li>
+                                    <li><a href="drupal.html">Drupal Development</a></li>
+                                    <li><a href="wooCommerce.html">WooCommerce Development</a></li>
+                                    <li><a href="openCart.html">Opencart Development</a></li>
+                                    <li><a href="bigCommerce.html">BigCommerce Development</a></li>
+                                    <li><a href="clickFunnels.html">ClickFunnels Development</a></li>
                                 </ul>
                             </div>
 
@@ -418,40 +536,46 @@
                         <div class="load-box-container"
                             style="display: flex; justify-content: center; align-items: center;" id="load3">
                             <img src="assets/Images/logo/iq.png"
-                                style="width: 300px; height: 300px; object-fit: contain; filter: drop-shadow(10px 5px 5px var(--black));" alt="Logo">
+                                style="width: 300px; height: 300px; object-fit: contain; filter: drop-shadow(10px 5px 5px var(--black));"
+                                alt="Logo">
 
                         </div>
                         <div class="load-box-container"
                             style="display: flex; justify-content: center; align-items: center;" id="load4">
                             <img src="assets/Images/logo/iq.png"
-                                style="width: 300px; height: 300px; object-fit: contain; filter: drop-shadow(10px 5px 5px var(--black));" alt="Logo">
+                                style="width: 300px; height: 300px; object-fit: contain; filter: drop-shadow(10px 5px 5px var(--black));"
+                                alt="Logo">
 
                         </div>
                         <div class="load-box-container"
                             style="display: flex; justify-content: center; align-items: center;" id="load5">
 
                             <img src="assets/Images/logo/iq.png"
-                                style="width: 300px; height: 300px; object-fit: contain; filter: drop-shadow(10px 5px 5px var(--black));" alt="Logo">
+                                style="width: 300px; height: 300px; object-fit: contain; filter: drop-shadow(10px 5px 5px var(--black));"
+                                alt="Logo">
 
                         </div>
                         <div class="load-box-container"
                             style="display: flex; justify-content: center; align-items: center;" id="load6">
                             <img src="assets/Images/logo/iq.png"
-                                style="width: 300px; height: 300px; object-fit: contain; filter: drop-shadow(10px 5px 5px var(--black));" alt="Logo">
+                                style="width: 300px; height: 300px; object-fit: contain; filter: drop-shadow(10px 5px 5px var(--black));"
+                                alt="Logo">
 
 
                         </div>
                         <div class="load-box-container"
                             style="display: flex; justify-content: center; align-items: center;" id="load7">
                             <img src="assets/Images/logo/iq.png"
-                                style="width: 300px; height: 300px; object-fit: contain; filter: drop-shadow(10px 5px 5px var(--black));" alt="Logo">
+                                style="width: 300px; height: 300px; object-fit: contain; filter: drop-shadow(10px 5px 5px var(--black));"
+                                alt="Logo">
 
                         </div>
                         <div class="load-box-container"
                             style="display: flex; justify-content: center; align-items: center;" id="load8">
 
                             <img src="assets/Images/logo/iq.png"
-                                style="width: 300px; height: 300px; object-fit: contain; filter: drop-shadow(10px 5px 5px var(--black));" alt="Logo">
+                                style="width: 300px; height: 300px; object-fit: contain; filter: drop-shadow(10px 5px 5px var(--black));"
+                                alt="Logo">
 
                         </div>
                     </div>
@@ -465,7 +589,7 @@
 
         <!-- Header Section Start -->
         <!-- Navbar Section Start -->
-       <nav class="navbar">
+        <nav class="navbar">
             <div class="navbar-container container">
                 <a href="index.html" class="nav-brand">
                     <img src="assets/Images/logo/iq-white.png" class="png-white" alt="LOGO">
@@ -716,6 +840,60 @@
 
     <!-- End Android Content  -->
 
+
+     <!-- industries we serve in DevOps Solutions start -->
+
+     <section class="industries-develops">
+        <div class="industries-develops-container container">
+            <div class="industries-develops-title">
+                <h2>Full-Fledged Android App Development  <span>Services</span> </h2>
+                <p>Being a top Android app development business, we are aware of how crucial mobile apps are in the modern digital environment. Our skilled group of strategists, designers, and developers is available to assist you in bringing your concepts to life. Our expertise lies in developing personalized Android applications that offer a smooth and intuitive user experience. <br>
+                    We are skilled in offering the best solutions using reliable and cutting-edge technology, regardless of the complexity of the application you need built, and we make sure that you and our team are on the same page by efficiently communicating with each other during the entire development process.</p>
+            </div>
+            <div class="industries-carousel-container mt-5">
+                <div class="owl-carousel owl-carousel-industries owl-theme owl-loaded">
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage">
+                            <div class="owl-item">
+                                <div class="industries-carousel-boxs">
+                                    <h3 style="color: var(--color);"><span>Android app development consultation</span></h3>
+                                    <p>Android apps have a user base and a set of specifications for their clients. We help businesses align their ideas with these specifications and an Android-only user base. Our Android app developers help you choose the best Android platform and strategies to take the industry by storm.</p>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="industries-carousel-boxs">
+                                    <h3 style="color: var(--color);"><span>Android app UI/UX</span></h3>
+                                   <p>Android has one of the priciest ecosystems. It operates with a wide range of devices. Our team of Android app designers is adept at creating captivating experiences for all Android devices and versions.</p>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="industries-carousel-boxs">
+                                    <h3 style="color: var(--color);"><span>Custom android app development</span></h3>
+                                   <p>Reliable, scalable Android solutions are what our services for developing Android apps are capable of producing. We create distinctive Android apps for a range of international businesses. Together, we develop a product that authentically represents you in an app store with millions of downloads.</p>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="industries-carousel-boxs">
+                                    <h3 style="color: var(--color);"><span>Android software testing</span></h3>
+                                    <p>Our approach to developing Android mobile apps prioritizes security and performance. We guarantee a seamless and lag-free Android mobile application production process. We mix manual and automated testing techniques for future-proof Android software development.</p>
+                                </div>
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                    <div class="owl-nav">
+                        <div class="owl-prev"><i class="fa-solid fa-arrow-left"></i></div>
+                        <div class="owl-next"><i class="fa-solid fa-arrow-right"></i></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- industries we serve in DevOps Solutions End -->
+    
     <!-- Home Services start -->
 
     <section class="homeServices-section">
@@ -738,9 +916,8 @@
                     <div class="homeServices-icon">
                         <img src="assets/Images/icons/software.png" alt="software-development">
                     </div>
-                    <h5>Android Wearable</h5>
-                    <p>Customizable features designed as per the small screen, Iqtechway is a Top Android App Development
-                        Company providing amazing apps or smart fitness bands, and much more under this category.</p>
+                    <h5>Custom Android App Development</h5>
+                    <p>With our full-lifecycle Android app development solutions, you can make your visions come true for smartphones, tablets, wearables, and televisions.</p>
 
                     <div class="homeServices-overlay"></div>
                 </div>
@@ -748,10 +925,8 @@
                     <div class="homeServices-icon">
                         <img src="assets/Images/icons/mobile-app.png" alt="mobile-app">
                     </div>
-                    <h5>Android Mobile</h5>
-                    <p>The smartphone is the most essential and used device. Our Android App Making Company develops
-                        mobile apps useful for a business. While developing apps for the android mobile, we at IQ Tech
-                        consider the aspect of steady competition.</p>
+                    <h5>Scalable Enterprise App Solutions</h5>
+                    <p>Utilize our full stack Android developers' cutting edge innovation and strategic planning to meet the unique demands of your expanding business.</p>
                     <div class="homeServices-overlay"></div>
 
                 </div>
@@ -759,10 +934,35 @@
                     <div class="homeServices-icon">
                         <img src="assets/Images/icons/web.png" alt="website-development">
                     </div>
-                    <h5>Android Tablet</h5>
-                    <p>We design and develop applications for the Android Tablet using the best of the tech stack while
-                        also meeting the graphic and backend requirements. This Android App Making Company always is
-                        completely useful.</p>
+                    <h5>Seamless Migration And Platform Updates</h5>
+                    <p>You may leave the technical details to our comprehensive Android app development services and take your brand on the platform of your choice with ease.</p>
+                    <div class="homeServices-overlay"></div>
+
+                </div>
+                <div class="homeServices-boxs bt1">
+                    <div class="homeServices-icon">
+                        <img src="assets/Images/icons/software.png" alt="software-development">
+                    </div>
+                    <h5>Professional Android Consulting</h5>
+                    <p>Consult with our top-notch team of mobile application developers in all business sectors to maximize your consumer experience.</p>
+
+                    <div class="homeServices-overlay"></div>
+                </div>
+                <div class="homeServices-boxs bt1">
+                    <div class="homeServices-icon">
+                        <img src="assets/Images/icons/mobile-app.png" alt="mobile-app">
+                    </div>
+                    <h5>Robust App-Support And Maintenance</h5>
+                    <p>Get the most out of your Android app's performance with regular maintenance services and dependable support.</p>
+                    <div class="homeServices-overlay"></div>
+
+                </div>
+                <div class="homeServices-boxs bt1">
+                    <div class="homeServices-icon">
+                        <img src="assets/Images/icons/web.png" alt="website-development">
+                    </div>
+                    <h5>Reliable Quality- Assurance And Testing</h5>
+                    <p>Work with our knowledgeable Android App Developers to create a dependable and safe app by subjecting it to rigorous quality assurance and testing.</p>
                     <div class="homeServices-overlay"></div>
 
                 </div>
@@ -782,7 +982,8 @@
         <div class="technologies-overlay2"></div>
         <div class="next-big-title1 container">
             <h2>Development <span>Process </span> </h2>
-            <p>A reliable android application development company, Iqtechway supervises the entire development process to
+            <p>A reliable android application development company, Iqtechway supervises the entire development process
+                to
                 attain client satisfaction. The method includes research, design, development, management, security,
                 testing, fixing, and publishing the application. This is followed by the post-deployment services, which
                 include; bug fixing, updates, and modifications as per demand at the best price.</p>
@@ -935,6 +1136,41 @@
     </section>
 
     <!-- rESERCH SECTION eND -->
+
+        <!-- Technologies Start  -->
+
+        <div class="research-title container mb-5">
+            <h2>Why Choose Iqtechway for  <span> Android App Development?</span>
+            </h2>
+            <p>As a leading Android app development firm, we promote one's features and services through an Android app. With the most up-to-date tools and Android SDK, we guarantee that we will surpass your expectations. Use Android app development to accelerate your company's growth for the following reasons:</p>
+        </div>
+    
+        <section class="hire-technologies-section">
+            <div class="technologies-overlay1"></div>
+            <div class="technologies-overlay2"></div>
+            <div class="hire-technologies-container container">
+                <div class="hire-technologies-boxs">
+                    <h3>Client Satisfaction</h3>
+                    <p style="font-size: 12px;">We have an 80% return client base. Our expertise mixed with our work ethics makes clients our life-long partners.</p>
+                </div>
+                <div class="hire-technologies-boxs">
+                    <h3>Software Security</h3>
+                    <p style="font-size: 12px;">We ensure that your app is ready to face every network and operational change in a hack and glitch-proof manner.</p>
+                </div>
+                <div class="hire-technologies-boxs">
+                    <h3>Prompt
+                        Delivery</h3>
+                    <p style="font-size: 12px;">We take great pride in our work and make sure your software is delivered well ahead of schedule.</p>
+                </div>
+
+                <div class="hire-technologies-boxs">
+                    <h3>Marketing Support</h3>
+                    <p style="font-size: 12px;">We use top-notch development and intensive marketing to make your Android app stand out.</p>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Technologies End  -->
 
 
     <!-- Our Approach Section Start -->
@@ -1094,50 +1330,90 @@
 
     <!-- Our Approach Section End -->
 
-
-    <!-- FAQ SECTION  -->
+    <!--/////////////////////////// Technologies End ///////////////////////-->
 
     <div class="faq-details container">
-        <h2>Frequently Asked Questions <br><span>Android App Development</span> </h2>
+        <h2>Frequently Asked <span>Questions</span> </h2>
         <div class="question-container">
             <div class="question">
-                <button id="button1">
-                    <span>How does Android App Development benefit my business?</span>
+                <button id="button">
+                    <span>1. How Do I Know You Understand My Demands And Deliver An App I Want?</span>
                     <span><i class="fa-solid fa-plus fa-lg"></i></span>
                 </button>
-                <p>
-                    The digitization of a business with the help of Top Android app companies in the World aids a
-                    business by putting it onto a global platform and make it available for global consumption.
-                </p>
+                <p>After carefully examining your specifications, our knowledgeable staff recommends a unique Android
+                    development procedure that incorporates the necessary technology. After that, we construct a simple
+                    prototype and solicit your input. Before we ultimately release the app for production, we do user
+                    acceptability testing and guarantee the quality of the code.</p>
             </div>
             <div class="question">
-                <button id="button1">
-                    <span> Why choose Iqtechway for Android App Development? </span>
+                <button id="button">
+                    <span>2. Why Should I Develop My Android Application Using The Iqtechway?</span>
                     <span><i class="fa-solid fa-plus fa-lg"></i></span>
                 </button>
-                <p>
-                    Iqtechway is the leading Android App Development Company that cares about the clients and their
-                    experience. With 12+ years of experience and innovation, we have successfully developed 850+ diverse
-                    apps with the help of 200+ expert technicians. Thus, time-efficiency, cost-effectiveness is of
-                    utmost importance to us.</p>
+                <p>Ionic: Ionic allows code to be reused to create on any platform and offers more pre-development
+                    components. Because it is a web view, testing can be done on any platform and it is straightforward
+                    and consistent. REACT NATIVE: Facebook released this feature, which enables native-like performance
+                    for mobile app development across several platforms. Very few pre-developed components come with
+                    React Native, and code can only be reused for Windows, iOS, and Android apps. It is basic, and
+                    because there is no web view, code speed is outstanding. An emulator or mobile device is required
+                    for testing. Numerous well-known companies, including Facebook and UberEats, use it. FLUTTER:
+                    Powered by Google, it's regarded as one of the top performance tools for mobile development that
+                    feels native.It has greater ubiquity than React Native. The rationale is that it makes use of Dart,
+                    a programming language with numerous sophisticated features that make the work process simple and
+                    appealing. CORDOVA: All popular browsers support Apache Cordova, which is easy to understand and
+                    use. It facilitates the owner's life by granting access to the device's robust native features.
+                    Popular toolkits that work well with Cordova include Sencha Touch, jQuery, and Dojox Mobile.
+                    Additionally, it has a plug-in architecture that lets developers add more features.</p>
             </div>
             <div class="question">
-                <button id="button1">
-                    <span>
-
-                        What will be the expenditure to develop an android app with IQ Tech? </span>
+                <button id="button">
+                    <span> 3. Why Do I Need Android App Development Services? </span>
                     <span><i class="fa-solid fa-plus fa-lg"></i></span>
                 </button>
-                <p> Cost of android app development depends on the type of your project and strictly depends on the
-                    maintenance you expect after deployment. So, reach us to know the overall discounted cost. </p>
+                <p>In the modern world, it is essential to connect with clients by offering practical answers on the
+                    channels they choose. The market for Android apps is expanding at a never-before-seen rate, which
+                    presents a great chance for businesses and startups. Investing a small amount of money in an Android
+                    app can provide you a competitive advantage, increase ROI, and quickly foster customer loyalty. We
+                    provide a full range of Android studio app development services at The Iqtechway.</p>
             </div>
-
+            <div class="question">
+                <button id="button">
+                    <span>4. How Much Will It Cost Me To Build An Android App?</span>
+                    <span><i class="fa-solid fa-plus fa-lg"></i></span>
+                </button>
+                <p>In the first phase of your requirement analysis, the costs are examined. Then, we provide you with an
+                    estimate that is within your budget, taking into account your industry, technological requirements,
+                    and more. Please contact us for further information about prices in greater detail. We may be
+                    reached by phone!</p>
+            </div>
         </div>
 
 
     </div>
 
     <!-- FAQ End  -->
+
+
+    <script>
+        // <!-- FAQ'S  -->
+
+        const buttons = document.querySelectorAll("#button");
+
+
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                const faq = button.nextElementSibling;
+                const icon = button.children[1];
+
+                faq.classList.toggle('show');
+                icon.classList.toggle('rotate');
+            })
+        })
+
+    </script>
+
+
+
 
 
 
@@ -1256,7 +1532,7 @@
     <!-- Android App Development Services End -->
 
     <!--/////////////////////////// footer section start/////////////////////// -->
-     <footer>
+    <footer>
         <div class="footer-boxes">
             <div class="footer-first">
                 <h5>Get in Touch</h5>
@@ -1844,25 +2120,45 @@
 
 
     </script>
-    <script>
 
-        // <!-- FAQ'S  -->
+<script>
 
+    var owl = $('.owl-carousel-industries');
+    owl.owlCarousel(
+        {
+            loop: true,
+            margin: 10,
+            nav: false,
+            autoplay: true,
+            margin: 20,
+            autoplayTimeout: 4000,
+            autoplayHoverPause: true,
+            smartSpeed: 3000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 2
+                }
+            }
+        }
+    );
+    // Go to the next item
+    $('.owl-next').click(function () {
+        owl.trigger('next.owl.carousel');
+    })
+    // Go to the previous item
+    $('.owl-prev').click(function () {
+        // With optional speed parameter
+        // Parameters has to be in square bracket '[]'
+        owl.trigger('prev.owl.carousel', [300]);
+    })
+</script>
 
-        const buttons = document.querySelectorAll("#button1");
-
-        buttons.forEach(button => {
-            button.addEventListener('click', () => {
-                const faq = button.nextElementSibling;
-                const icon = button.children[1];
-
-                faq.classList.toggle('show');
-                icon.classList.toggle('rotate');
-            })
-        })
-
-
-    </script>
 
     <!-- 
 <script type="text/javascript">
